@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NFL Strength of Schedule Dashboard</title>
+  <!-- Tailwind CSS & Chart.js via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen pb-12 antialiased selection:bg-sky-500 selection:text-white">
+
+  <!-- Fallback File Loader Banner (Hidden unless fetch is blocked) -->
+  <div id="loaderBanner" class="hidden bg-amber-950/80 border-b border-amber-800/80 p-4 text-amber-200">
+    <div class="max-w-4xl mx-auto flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs sm:text-sm">
+      <div>
+        <strong class="font-bold">Notice:</strong> Browser blocked automatic loading of <code class="bg-slate-900 px-1 py-0.5 rounded text-amber-300">data.json</code>.
+      </div>
+      <label class="cursor-pointer bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold px-3 py-1.5 rounded-lg shadow transition whitespace-nowrap">
+        Select data.json Manually
+        <input type="file" id="manualFileInput" accept=".json" class="hidden" />
+      </label>
+    </div>
+  </div>
+
+  <!-- Top Banner & Controls -->
+  <header id="teamBanner" class="border-b border-slate-800 transition-colors duration-300 px-4 py-6 sm:px-8">
+    <div class="max-w-4xl mx-auto flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+      <div>
+        <div class="flex items-center gap-2">
+          <span id="confBadge" class="text-xs uppercase font-bold tracking-wider px-2 py-0.5 rounded bg-slate-800 text-slate-300">AFC</span>
+          <h1 id="teamTitle" class="text-2xl sm:text-3xl font-black tracking-tight text-white">Select a Team</h1>
+        </div>
+        <p class="text-xs sm:text-sm text-slate-400 mt-1">NFL Schedule Difficulty & Opponent Metric Analysis</p>
+      </div>
+
+      <!-- Controls -->
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 w-full sm:w-auto">
+        <!-- Team Selector -->
+        <div>
+          <label class="block text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-1">Team</label>
+          <select id="teamSelect" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:ring-2 focus:ring-sky-500 outline-none">
+            <option value="">Loading teams...</option>
+          </select>
+        </div>
+
+        <!-- Cut-off Week -->
+        <div>
+          <label class="block text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-1">After Week</label>
+          <select id="weekSelect" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:ring-2 focus:ring-sky-500 outline-none"></select>
+        </div>
+
+        <!-- Metric -->
+        <div>
+          <label class="block text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-1">Metric</label>
+          <select id="metricSelect" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:ring-2 focus:ring-sky-500 outline-none">
+            <option value="Rating">Market Rating</option>
+            <option value="NetEPA">Raw Net EPA</option>
+            <option value="NetWEPA">Weighted Net EPA</option>
+            <option value="PointsDif">Points Differential</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 sm:px-8 mt-6 space-y-6">
+
+    <!-- KPI Summary Cards -->
+    <section class="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
+      <div class="bg-slate-900/90 border border-slate-800 p-4 rounded-xl">
+        <span class="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">Record</span>
+        <div id="statRecord" class="text-2xl font-black mt-1 text-white">--</div>
+      </div>
+
+      <div class="bg-slate-900/90 border border-slate-800 p-4 rounded-xl">
+        <span class="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">SoS To Date</span>
+        <div id="statPastSos" class="text-2xl font-black mt-1 text-sky-400">--</div>
+      </div>
+
+      <div class="bg-slate-900/90 border border-slate-800 p-4 rounded-xl">
+        <span class="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">SoS Remaining</span>
+        <div id="statFutureSos" class="text-2xl font-black mt-1 text-amber-400">--</div>
+      </div>
+
+      <div class="bg-slate-900/90 border border-slate-800 p-4 rounded-xl">
+        <span class="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">League Average</span>
+        <div id="statLeagueAvg" class="text-2xl font-black mt-1 text-slate-300">--</div>
+      </div>
+    </section>
+
+    <!-- Mobile-First Vertical Chart -->
+    <section class="bg-slate-900/90 border border-slate-800 rounded-2xl p-4 sm:p-6">
+      <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+        <h2 class="text-sm font-bold uppercase tracking-wider text-slate-300">18-Week Opponent Difficulty</h2>
+        <div class="flex flex-wrap items-center gap-3 text-xs text-slate-400">
+          <span class="inline-flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-sm bg-sky-400"></span> Played</span>
+          <span class="inline-flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-sm bg-amber-400"></span> Remaining</span>
+          <span class="inline-flex items-center gap-1.5"><span class="w-3 border-t-2 border-dashed border-slate-400"></span> League Avg</span>
+          <span class="inline-flex items-center gap-1.5"><span class="w-3 border-t-2 border-dashed border-rose-400"></span> Team Rating</span>
+        </div>
+      </div>
+      <div class="relative h-[620px] w-full">
+        <canvas id="verticalChart"></canvas>
+      </div>
+    </section>
+
+    <!-- Detailed Schedule Table -->
+    <section class="bg-slate-900/90 border border-slate-800 rounded-2xl overflow-hidden">
+      <div class="px-4 py-3 border-b border-slate-800 flex justify-between items-center">
+        <h2 class="text-sm font-bold uppercase tracking-wider text-slate-300">Schedule Breakdown</h2>
+        <span id="scheduleSubhead" class="text-xs text-slate-400"></span>
+      </div>
+      <div class="overflow-x-auto">
+        <table class="w-full text-left text-sm text-slate-300">
+          <thead class="bg-slate-800/60 uppercase text-[11px] text-slate-400 font-semibold">
+            <tr>
+              <th class="py-2.5 px-3">Wk</th>
+              <th class="py-2.5 px-3">Opponent</th>
+              <th class="py-2.5 px-3">Site</th>
+              <th class="py-2.5 px-3">Div</th>
+              <th class="py-2.5 px-3">Result</th>
+              <th class="py-2.5 px-3 text-right">Opp. Metric</th>
+            </tr>
+          </thead>
+          <tbody id="scheduleRows" class="divide-y divide-slate-800/60 text-xs sm:text-sm"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Footer Credits -->
+    <footer class="pt-6 pb-2 border-t border-slate-800/80 text-center text-xs text-slate-500 space-y-1">
+      <p>
+        All metrics from <a href="https://rbsdm.com/" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-sky-400 underline underline-offset-2 transition-colors">rbsdm.com</a>
+      </p>
+      <p>
+        Fixture and result data from <a href="https://fixturedownload.com/" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-sky-400 underline underline-offset-2 transition-colors">fixturedownload.com</a>
+      </p>
+    </footer>
+
+  </main>
+
+  <script>
+    let rawData = null;
+    let chartInstance = null;
+
+    // Helper: Formats numbers based on metric type (3 decimals for EPA, 2 otherwise)
+    function fmtMetric(val, metric) {
+      if (val === null || val === undefined || isNaN(val)) return '--';
+      const decimals = (metric === 'NetEPA' || metric === 'NetWEPA') ? 3 : 2;
+      return Number(val).toFixed(decimals);
+    }
+
+    // Populate week dropdown capped dynamically at max week available in metrics
+    function populateWeeks() {
+      const weekSelect = document.getElementById('weekSelect');
+      const prevVal = weekSelect.value ? parseInt(weekSelect.value) : null;
+      weekSelect.innerHTML = '';
+
+      let maxWeek = 18;
+      if (rawData && Array.isArray(rawData.metrics) && rawData.metrics.length > 0) {
+        maxWeek = Math.max(...rawData.metrics.map(m => m.Week || 1));
+      }
+
+      for (let w = 1; w <= maxWeek; w++) {
+        const opt = document.createElement('option');
+        opt.value = w;
+        opt.textContent = `Week ${w}`;
+        if (prevVal ? w === prevVal : w === maxWeek) opt.selected = true;
+        weekSelect.appendChild(opt);
+      }
+    }
+
+    async function loadData() {
+      document.getElementById('manualFileInput').addEventListener('change', function(e) {
+        const file = e.target.files[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = function(evt) {
+          try {
+            rawData = JSON.parse(evt.target.result);
+            document.getElementById('loaderBanner').classList.add('hidden');
+            setupApp();
+          } catch (err) {
+            alert('Error parsing JSON file: ' + err.message);
+          }
+        };
+        reader.readAsText(file);
+      });
+
+      try {
+        const res = await fetch('./data.json');
+        if (!res.ok) throw new Error(`HTTP error ${res.status}`);
+        rawData = await res.json();
+        setupApp();
+      } catch (err) {
+        console.warn('Auto-fetch failed:', err);
+        populateWeeks();
+        document.getElementById('loaderBanner').classList.remove('hidden');
+      }
+    }
+
+    function setupApp() {
+      if (!rawData || !rawData.info) return;
+
+      populateWeeks();
+
+      const teamSelect = document.getElementById('teamSelect');
+      teamSelect.innerHTML = '';
+
+      const sortedTeams = [...rawData.info].sort((a, b) => {
+        const nameA = a['Team Name'] || a.Team;
+        const nameB = b['Team Name'] || b.Team;
+        return nameA.localeCompare(nameB);
+      });
+
+      sortedTeams.forEach(t => {
+        const opt = document.createElement('option');
+        opt.value = t.Team;
+        opt.textContent = `${t['Team Name'] || t.Team} (${t.Team})`;
+        if (t.Team === 'CIN') opt.selected = true;
+        teamSelect.appendChild(opt);
+      });
+
+      teamSelect.onchange = render;
+      document.getElementById('weekSelect').onchange = render;
+      document.getElementById('metricSelect').onchange = render;
+
+      render();
+    }
+
+    function render() {
+      if (!rawData) return;
+
+      const teamSelect = document.getElementById('teamSelect');
+      const selectedTeamCode = teamSelect.value;
+      if (!selectedTeamCode) return;
+
+      const cutoffWeek = parseInt(document.getElementById('weekSelect').value) || 1;
+      const selectedMetric = document.getElementById('metricSelect').value;
+
+      const teamInfo = rawData.info.find(t => t.Team === selectedTeamCode) || {
+        'Team Name': selectedTeamCode,
+        Conference: '',
+        ConfName: '',
+        Color1: '#38bdf8'
+      };
+      const teamMap = Object.fromEntries(rawData.info.map(t => [t.Team, t['Team Name'] || t.Team]));
+
+      document.getElementById('teamTitle').textContent = teamInfo['Team Name'] || selectedTeamCode;
+      document.getElementById('confBadge').textContent = teamInfo.ConfName || teamInfo.Conference || 'NFL';
+      document.getElementById('teamBanner').style.borderTop = `4px solid ${teamInfo.Color1 || '#38bdf8'}`;
+
+      const metricMap = new Map();
+      if (Array.isArray(rawData.metrics)) {
+        rawData.metrics.forEach(m => {
+          metricMap.set(`${m.Team}_${m.Week}`, m);
+        });
+      }
+
+      // League average calculation: Force exactly 0 for Points Differential
+      let leagueAvg = 0;
+      if (selectedMetric === 'PointsDif') {
+        leagueAvg = 0;
+      } else {
+        const leagueVals = [];
+        rawData.info.forEach(t => {
+          const m = metricMap.get(`${t.Team}_${cutoffWeek}`);
+          if (m && m[selectedMetric] != null) leagueVals.push(m[selectedMetric]);
+        });
+        leagueAvg = leagueVals.length > 0 ? (leagueVals.reduce((a, b) => a + b, 0) / leagueVals.length) : 0;
+      }
+      document.getElementById('statLeagueAvg').textContent = fmtMetric(leagueAvg, selectedMetric);
+
+      const ownMetricObj = metricMap.get(`${selectedTeamCode}_${cutoffWeek}`);
+      const teamRating = (ownMetricObj && ownMetricObj[selectedMetric] != null) ? ownMetricObj[selectedMetric] : null;
+
+      const teamSchedule = (rawData.schedule || [])
+        .filter(s => s.Team === selectedTeamCode)
+        .sort((a, b) => a.Week - b.Week);
+
+      let wins = 0, losses = 0, ties = 0;
+      let pastSum = 0, pastCount = 0;
+      let futureSum = 0, futureCount = 0;
+
+      const chartLabels = [];
+      const chartValues = [];
+      const chartColors = [];
+      const tableRows = [];
+
+      teamSchedule.forEach(s => {
+        const isBye = s.GameType === 'Bye' || !s.Opponent;
+        const isPast = s.Week <= cutoffWeek;
+        const oppCode = s.Opponent;
+
+        let oppVal = null;
+        if (!isBye && oppCode) {
+          const oppMetricObj = metricMap.get(`${oppCode}_${cutoffWeek}`);
+          if (oppMetricObj && oppMetricObj[selectedMetric] != null) {
+            oppVal = oppMetricObj[selectedMetric];
+          }
+        }
+
+        if (isPast && !isBye) {
+          if (s.Result === 'W') wins++;
+          else if (s.Result === 'L') losses++;
+          else if (s.Result === 'T') ties++;
+
+          if (oppVal !== null) {
+            pastSum += oppVal;
+            pastCount++;
+          }
+        } else if (!isPast && !isBye && oppVal !== null) {
+          futureSum += oppVal;
+          futureCount++;
+        }
+
+        const labelText = isBye ? `Wk ${s.Week}: BYE` : `Wk ${s.Week}: ${s['H/A'] === 'H' ? 'vs' : '@'} ${oppCode}`;
+        chartLabels.push(labelText);
+        chartValues.push(oppVal !== null ? oppVal : 0);
+        chartColors.push(isBye ? '#334155' : (isPast ? '#38bdf8' : '#fbbf24'));
+
+        const resultBadge = s.Result === 'W' 
+          ? '<span class="text-emerald-400 font-bold">W</span>' 
+          : (s.Result === 'L' ? '<span class="text-rose-400 font-bold">L</span>' : (s.Result === 'T' ? '<span class="text-slate-400 font-bold">T</span>' : '<span class="text-slate-600">-</span>'));
+
+        // Opposition metric color styling: Green if above average (harder), Red if below (easier)
+        let oppMetricColor = 'text-slate-600';
+        if (oppVal !== null) {
+          oppMetricColor = (oppVal >= leagueAvg) ? 'text-emerald-400' : 'text-rose-400';
+        }
+
+        tableRows.push(`
+          <tr class="${isPast ? 'bg-slate-900/40' : 'bg-slate-900/90'} hover:bg-slate-800/40 transition-colors">
+            <td class="py-2.5 px-3 font-mono font-semibold">${s.Week}</td>
+            <td class="py-2.5 px-3 font-medium ${isBye ? 'text-slate-500 italic' : 'text-slate-200'}">
+              ${isBye ? 'BYE WEEK' : (teamMap[oppCode] || oppCode)}
+            </td>
+            <td class="py-2.5 px-3 font-mono text-xs">
+              ${isBye ? '-' : `<span class="px-1.5 py-0.5 rounded text-[10px] font-bold ${s['H/A'] === 'H' ? 'bg-sky-950 text-sky-300' : 'bg-amber-950 text-amber-300'}">${s['H/A'] || '-'}</span>`}
+            </td>
+            <td class="py-2.5 px-3 font-mono text-xs">${s.Divisional === 'D' ? '<span class="text-purple-400 font-bold">DIV</span>' : '-'}</td>
+            <td class="py-2.5 px-3 font-mono">${isBye ? '-' : resultBadge}</td>
+            <td class="py-2.5 px-3 text-right font-mono font-semibold ${oppMetricColor}">
+              ${oppVal !== null ? fmtMetric(oppVal, selectedMetric) : '-'}
+            </td>
+          </tr>
+        `);
+      });
+
+      document.getElementById('statRecord').textContent = `${wins}-${losses}${ties > 0 ? `-${ties}` : ''}`;
+      document.getElementById('statPastSos').textContent = pastCount > 0 ? fmtMetric(pastSum / pastCount, selectedMetric) : '--';
+      document.getElementById('statFutureSos').textContent = futureCount > 0 ? fmtMetric(futureSum / futureCount, selectedMetric) : '--';
+      document.getElementById('scheduleRows').innerHTML = tableRows.join('');
+      document.getElementById('scheduleSubhead').textContent = `Showing 18 weeks (Cutoff: Week ${cutoffWeek})`;
+
+      renderChart(chartLabels, chartValues, chartColors, leagueAvg, teamRating, selectedMetric);
+    }
+
+    function renderChart(labels, values, colors, leagueAvg, teamRating, metric) {
+      const ctx = document.getElementById('verticalChart').getContext('2d');
+      if (chartInstance) chartInstance.destroy();
+
+      const isEpa = (metric === 'NetEPA' || metric === 'NetWEPA');
+      const pinDecimals = isEpa ? 3 : 1;
+
+      const benchmarkLinesPlugin = {
+        id: 'benchmarkLines',
+        afterDatasetsDraw(chart) {
+          const { ctx, chartArea: { top, bottom, left, right }, scales: { x } } = chart;
+
+          const hasAvg = leagueAvg !== null && leagueAvg !== undefined && !isNaN(leagueAvg);
+          const hasTeam = teamRating !== null && teamRating !== undefined && !isNaN(teamRating);
+
+          let avgX = hasAvg ? x.getPixelForValue(leagueAvg) : null;
+          let teamX = hasTeam ? x.getPixelForValue(teamRating) : null;
+
+          const showAvg = hasAvg && avgX >= left && avgX <= right;
+          const showTeam = hasTeam && teamX >= left && teamX <= right;
+
+          const isColliding = showAvg && showTeam && Math.abs(avgX - teamX) < 70;
+
+          const teamLabelY = isColliding ? (top - 18) : (top - 6);
+          const avgLabelY = isColliding ? (top - 5) : (top - 6);
+
+          function drawLine(xPos, strokeColor) {
+            ctx.save();
+            ctx.beginPath();
+            ctx.setLineDash([5, 5]);
+            ctx.lineWidth = 1.75;
+            ctx.strokeStyle = strokeColor;
+            ctx.moveTo(xPos, top);
+            ctx.lineTo(xPos, bottom);
+            ctx.stroke();
+            ctx.restore();
+          }
+
+          function drawLabel(xPos, yPos, strokeColor, labelText) {
+            ctx.save();
+            ctx.fillStyle = strokeColor;
+            ctx.font = 'bold 10px sans-serif';
+            ctx.textAlign = 'center';
+            ctx.fillText(labelText, xPos, yPos);
+            ctx.restore();
+          }
+
+          // 1. League Average Benchmark Line & Label
+          if (showAvg) {
+            drawLine(avgX, '#94a3b8');
+            drawLabel(avgX, avgLabelY, '#94a3b8', `Avg: ${Number(leagueAvg).toFixed(pinDecimals)}`);
+          }
+
+          // 2. Team Rating Benchmark Line & Label
+          if (showTeam) {
+            drawLine(teamX, '#f43f5e');
+            drawLabel(teamX, teamLabelY, '#f43f5e', `Team: ${Number(teamRating).toFixed(pinDecimals)}`);
+          }
+        }
+      };
+
+      chartInstance = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: labels,
+          datasets: [{
+            axis: 'y',
+            data: values,
+            backgroundColor: colors,
+            borderRadius: 4,
+            barPercentage: 0.75
+          }]
+        },
+        options: {
+          indexAxis: 'y',
+          responsive: true,
+          maintainAspectRatio: false,
+          layout: {
+            padding: {
+              top: 26
+            }
+          },
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                label: (ctx) => ` Opponent Metric: ${fmtMetric(ctx.parsed.x, metric)}`
+              }
+            }
+          },
+          scales: {
+            x: {
+              grid: { color: '#1e293b' },
+              ticks: { 
+                color: '#94a3b8',
+                callback: (val) => fmtMetric(val, metric)
+              }
+            },
+            y: {
+              grid: { display: false },
+              ticks: { color: '#cbd5e1', font: { size: 11 } }
+            }
+          }
+        },
+        plugins: [benchmarkLinesPlugin]
+      });
+    }
+
+    window.addEventListener('DOMContentLoaded', loadData);
+  </script>
+</body>
+</html>

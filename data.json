@@ -1,0 +1,7496 @@
+{
+  "info": [
+    {
+      "Team": "ARI",
+      "Team Name": "Arizona Cardinals",
+      "Conference": "NFCW",
+      "ConfName": "NFC West",
+      "Color1": "#97233F",
+      "Color2": "#000000"
+    },
+    {
+      "Team": "ATL",
+      "Team Name": "Atlanta Falcons",
+      "Conference": "NFCS",
+      "ConfName": "NFC South",
+      "Color1": "#A71930",
+      "Color2": "#000000"
+    },
+    {
+      "Team": "BAL",
+      "Team Name": "Baltimore Ravens",
+      "Conference": "AFCN",
+      "ConfName": "AFC North",
+      "Color1": "#241773",
+      "Color2": "#000000"
+    },
+    {
+      "Team": "BUF",
+      "Team Name": "Buffalo Bills",
+      "Conference": "AFCE",
+      "ConfName": "AFC East",
+      "Color1": "#00338D",
+      "Color2": "#C60C30"
+    },
+    {
+      "Team": "CAR",
+      "Team Name": "Carolina Panthers",
+      "Conference": "NFCS",
+      "ConfName": "NFC South",
+      "Color1": "#0085CA",
+      "Color2": "#101820"
+    },
+    {
+      "Team": "CHI",
+      "Team Name": "Chicago Bears",
+      "Conference": "NFCN",
+      "ConfName": "NFC North",
+      "Color1": "#0B162A",
+      "Color2": "#C83803"
+    },
+    {
+      "Team": "CIN",
+      "Team Name": "Cincinnati Bengals",
+      "Conference": "AFCN",
+      "ConfName": "AFC North",
+      "Color1": "#FB4F14",
+      "Color2": "#000000"
+    },
+    {
+      "Team": "CLE",
+      "Team Name": "Cleveland Browns",
+      "Conference": "AFCN",
+      "ConfName": "AFC North",
+      "Color1": "#311D00",
+      "Color2": "#FF3C00"
+    },
+    {
+      "Team": "DAL",
+      "Team Name": "Dallas Cowboys",
+      "Conference": "NFCE",
+      "ConfName": "NFC East",
+      "Color1": "#003594",
+      "Color2": "#041E42"
+    },
+    {
+      "Team": "DEN",
+      "Team Name": "Denver Broncos",
+      "Conference": "AFCW",
+      "ConfName": "AFC West",
+      "Color1": "#FB4F14",
+      "Color2": "#002244"
+    },
+    {
+      "Team": "DET",
+      "Team Name": "Detroit Lions",
+      "Conference": "NFCN",
+      "ConfName": "NFC North",
+      "Color1": "#0076B6",
+      "Color2": "#B0B7BC"
+    },
+    {
+      "Team": "GB",
+      "Team Name": "Green Bay Packers",
+      "Conference": "NFCN",
+      "ConfName": "NFC North",
+      "Color1": "#203731",
+      "Color2": "#FFB612"
+    },
+    {
+      "Team": "HOU",
+      "Team Name": "Houston Texans",
+      "Conference": "AFCS",
+      "ConfName": "AFC South",
+      "Color1": "#03202F",
+      "Color2": "#A71930"
+    },
+    {
+      "Team": "IND",
+      "Team Name": "Indianapolis Colts",
+      "Conference": "AFCS",
+      "ConfName": "AFC South",
+      "Color1": "#002C5F",
+      "Color2": "#A2AAAD"
+    },
+    {
+      "Team": "JAX",
+      "Team Name": "Jacksonville Jaguars",
+      "Conference": "AFCS",
+      "ConfName": "AFC South",
+      "Color1": "#101820",
+      "Color2": "#D7A22A"
+    },
+    {
+      "Team": "KC",
+      "Team Name": "Kansas City Chiefs",
+      "Conference": "AFCW",
+      "ConfName": "AFC West",
+      "Color1": "#E31837",
+      "Color2": "#FFB81C"
+    },
+    {
+      "Team": "LV",
+      "Team Name": "Las Vegas Raiders",
+      "Conference": "AFCW",
+      "ConfName": "AFC West",
+      "Color1": "#000000",
+      "Color2": "#A5ACAF"
+    },
+    {
+      "Team": "LAC",
+      "Team Name": "Los Angeles Chargers",
+      "Conference": "AFCW",
+      "ConfName": "AFC West",
+      "Color1": "#0080C6",
+      "Color2": "#FFC20E"
+    },
+    {
+      "Team": "LA",
+      "Team Name": "Los Angeles Rams",
+      "Conference": "NFCW",
+      "ConfName": "NFC West",
+      "Color1": "#003594",
+      "Color2": "#FFA300"
+    },
+    {
+      "Team": "MIA",
+      "Team Name": "Miami Dolphins",
+      "Conference": "AFCE",
+      "ConfName": "AFC East",
+      "Color1": "#008E97",
+      "Color2": "#FC4C02"
+    },
+    {
+      "Team": "MIN",
+      "Team Name": "Minnesota Vikings",
+      "Conference": "NFCN",
+      "ConfName": "NFC North",
+      "Color1": "#4F2683",
+      "Color2": "#FFC62F"
+    },
+    {
+      "Team": "NE",
+      "Team Name": "New England Patriots",
+      "Conference": "AFCE",
+      "ConfName": "AFC East",
+      "Color1": "#002244",
+      "Color2": "#C60C30"
+    },
+    {
+      "Team": "NO",
+      "Team Name": "New Orleans Saints",
+      "Conference": "NFCS",
+      "ConfName": "NFC South",
+      "Color1": "#D3BC8D",
+      "Color2": "#101820"
+    },
+    {
+      "Team": "NYG",
+      "Team Name": "New York Giants",
+      "Conference": "NFCE",
+      "ConfName": "NFC East",
+      "Color1": "#0B2265",
+      "Color2": "#A71930"
+    },
+    {
+      "Team": "NYJ",
+      "Team Name": "New York Jets",
+      "Conference": "AFCE",
+      "ConfName": "AFC East",
+      "Color1": "#125740",
+      "Color2": "#000000"
+    },
+    {
+      "Team": "PHI",
+      "Team Name": "Philadelphia Eagles",
+      "Conference": "NFCE",
+      "ConfName": "NFC East",
+      "Color1": "#004C54",
+      "Color2": "#A5ACAF"
+    },
+    {
+      "Team": "PIT",
+      "Team Name": "Pittsburgh Steelers",
+      "Conference": "AFCN",
+      "ConfName": "AFC North",
+      "Color1": "#FFB612",
+      "Color2": "#101820"
+    },
+    {
+      "Team": "SF",
+      "Team Name": "San Francisco 49ers",
+      "Conference": "NFCW",
+      "ConfName": "NFC West",
+      "Color1": "#AA0000",
+      "Color2": "#B3995D"
+    },
+    {
+      "Team": "SEA",
+      "Team Name": "Seattle Seahawks",
+      "Conference": "NFCW",
+      "ConfName": "NFC West",
+      "Color1": "#002244",
+      "Color2": "#69BE28"
+    },
+    {
+      "Team": "TB",
+      "Team Name": "Tampa Bay Buccaneers",
+      "Conference": "NFCS",
+      "ConfName": "NFC South",
+      "Color1": "#D50A0A",
+      "Color2": "#FF7900"
+    },
+    {
+      "Team": "TEN",
+      "Team Name": "Tennessee Titans",
+      "Conference": "AFCS",
+      "ConfName": "AFC South",
+      "Color1": "#0C2340",
+      "Color2": "#4B92DB"
+    },
+    {
+      "Team": "WAS",
+      "Team Name": "Washington Commanders",
+      "Conference": "NFCE",
+      "ConfName": "NFC East",
+      "Color1": "#5A1414",
+      "Color2": "#FFB612"
+    }
+  ],
+  "schedule": [
+    {
+      "Team": "ARI",
+      "Week": 1,
+      "Opponent": "LAC",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "ARI",
+      "Week": 2,
+      "Opponent": "SEA",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "ARI",
+      "Week": 3,
+      "Opponent": "SF",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "ARI",
+      "Week": 4,
+      "Opponent": "NYG",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "ARI",
+      "Week": 5,
+      "Opponent": "DET",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "ARI",
+      "Week": 6,
+      "Opponent": "LA",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "ARI",
+      "Week": 7,
+      "Opponent": "DEN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "ARI",
+      "Week": 8,
+      "Opponent": "DAL",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "ARI",
+      "Week": 9,
+      "Opponent": "SEA",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "ARI",
+      "Week": 10,
+      "Opponent": "LA",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "ARI",
+      "Week": 11,
+      "Opponent": "KC",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "ARI",
+      "Week": 12,
+      "Opponent": "WAS",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "ARI",
+      "Week": 13,
+      "Opponent": "PHI",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "ARI",
+      "Week": 14,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "ARI",
+      "Week": 15,
+      "Opponent": "NYJ",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "ARI",
+      "Week": 16,
+      "Opponent": "NO",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "ARI",
+      "Week": 17,
+      "Opponent": "LV",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "ARI",
+      "Week": 18,
+      "Opponent": "SF",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "ATL",
+      "Week": 1,
+      "Opponent": "PIT",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "ATL",
+      "Week": 2,
+      "Opponent": "CAR",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "ATL",
+      "Week": 3,
+      "Opponent": "GB",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "ATL",
+      "Week": 4,
+      "Opponent": "NO",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "ATL",
+      "Week": 5,
+      "Opponent": "BAL",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "ATL",
+      "Week": 6,
+      "Opponent": "CHI",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "ATL",
+      "Week": 7,
+      "Opponent": "SF",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "ATL",
+      "Week": 8,
+      "Opponent": "TB",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "ATL",
+      "Week": 9,
+      "Opponent": "CIN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "ATL",
+      "Week": 10,
+      "Opponent": "KC",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "ATL",
+      "Week": 11,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "ATL",
+      "Week": 12,
+      "Opponent": "MIN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "ATL",
+      "Week": 13,
+      "Opponent": "DET",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "ATL",
+      "Week": 14,
+      "Opponent": "CLE",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "ATL",
+      "Week": 15,
+      "Opponent": "WAS",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "ATL",
+      "Week": 16,
+      "Opponent": "TB",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "ATL",
+      "Week": 17,
+      "Opponent": "NO",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "ATL",
+      "Week": 18,
+      "Opponent": "CAR",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "BAL",
+      "Week": 1,
+      "Opponent": "IND",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "BAL",
+      "Week": 2,
+      "Opponent": "NO",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "BAL",
+      "Week": 3,
+      "Opponent": "DAL",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "BAL",
+      "Week": 4,
+      "Opponent": "TEN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "BAL",
+      "Week": 5,
+      "Opponent": "ATL",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "BAL",
+      "Week": 6,
+      "Opponent": "CLE",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "BAL",
+      "Week": 7,
+      "Opponent": "CIN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "BAL",
+      "Week": 8,
+      "Opponent": "BUF",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "BAL",
+      "Week": 9,
+      "Opponent": "JAX",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "BAL",
+      "Week": 10,
+      "Opponent": "LAC",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "BAL",
+      "Week": 11,
+      "Opponent": "CAR",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "BAL",
+      "Week": 12,
+      "Opponent": "HOU",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "BAL",
+      "Week": 13,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "BAL",
+      "Week": 14,
+      "Opponent": "TB",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "BAL",
+      "Week": 15,
+      "Opponent": "PIT",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "BAL",
+      "Week": 16,
+      "Opponent": "CLE",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "BAL",
+      "Week": 17,
+      "Opponent": "CIN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "BAL",
+      "Week": 18,
+      "Opponent": "PIT",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "BUF",
+      "Week": 1,
+      "Opponent": "HOU",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "BUF",
+      "Week": 2,
+      "Opponent": "DET",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "BUF",
+      "Week": 3,
+      "Opponent": "LAC",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "BUF",
+      "Week": 4,
+      "Opponent": "NE",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "BUF",
+      "Week": 5,
+      "Opponent": "LA",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "BUF",
+      "Week": 6,
+      "Opponent": "LV",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "BUF",
+      "Week": 7,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "BUF",
+      "Week": 8,
+      "Opponent": "BAL",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "BUF",
+      "Week": 9,
+      "Opponent": "MIN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "BUF",
+      "Week": 10,
+      "Opponent": "NYJ",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "BUF",
+      "Week": 11,
+      "Opponent": "MIA",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "BUF",
+      "Week": 12,
+      "Opponent": "KC",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "BUF",
+      "Week": 13,
+      "Opponent": "NE",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "BUF",
+      "Week": 14,
+      "Opponent": "GB",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "BUF",
+      "Week": 15,
+      "Opponent": "CHI",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "BUF",
+      "Week": 16,
+      "Opponent": "DEN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "BUF",
+      "Week": 17,
+      "Opponent": "MIA",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "BUF",
+      "Week": 18,
+      "Opponent": "NYJ",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "CAR",
+      "Week": 1,
+      "Opponent": "CHI",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "CAR",
+      "Week": 2,
+      "Opponent": "ATL",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "CAR",
+      "Week": 3,
+      "Opponent": "CLE",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "CAR",
+      "Week": 4,
+      "Opponent": "DET",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "CAR",
+      "Week": 5,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "CAR",
+      "Week": 6,
+      "Opponent": "PHI",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "CAR",
+      "Week": 7,
+      "Opponent": "TB",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "CAR",
+      "Week": 8,
+      "Opponent": "GB",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "CAR",
+      "Week": 9,
+      "Opponent": "DEN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "CAR",
+      "Week": 10,
+      "Opponent": "NO",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "CAR",
+      "Week": 11,
+      "Opponent": "BAL",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "CAR",
+      "Week": 12,
+      "Opponent": "TB",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "CAR",
+      "Week": 13,
+      "Opponent": "MIN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "CAR",
+      "Week": 14,
+      "Opponent": "NO",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "CAR",
+      "Week": 15,
+      "Opponent": "CIN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "CAR",
+      "Week": 16,
+      "Opponent": "PIT",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "CAR",
+      "Week": 17,
+      "Opponent": "SEA",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "CAR",
+      "Week": 18,
+      "Opponent": "ATL",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "CHI",
+      "Week": 1,
+      "Opponent": "CAR",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "CHI",
+      "Week": 2,
+      "Opponent": "MIN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "CHI",
+      "Week": 3,
+      "Opponent": "PHI",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "CHI",
+      "Week": 4,
+      "Opponent": "NYJ",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "CHI",
+      "Week": 5,
+      "Opponent": "GB",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "CHI",
+      "Week": 6,
+      "Opponent": "ATL",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "CHI",
+      "Week": 7,
+      "Opponent": "NE",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "CHI",
+      "Week": 8,
+      "Opponent": "SEA",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "CHI",
+      "Week": 9,
+      "Opponent": "TB",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "CHI",
+      "Week": 10,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "CHI",
+      "Week": 11,
+      "Opponent": "NO",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "CHI",
+      "Week": 12,
+      "Opponent": "DET",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "CHI",
+      "Week": 13,
+      "Opponent": "JAX",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "CHI",
+      "Week": 14,
+      "Opponent": "MIA",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "CHI",
+      "Week": 15,
+      "Opponent": "BUF",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "CHI",
+      "Week": 16,
+      "Opponent": "GB",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "CHI",
+      "Week": 17,
+      "Opponent": "DET",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "CHI",
+      "Week": 18,
+      "Opponent": "MIN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "CIN",
+      "Week": 1,
+      "Opponent": "TB",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "CIN",
+      "Week": 2,
+      "Opponent": "HOU",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "CIN",
+      "Week": 3,
+      "Opponent": "PIT",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "CIN",
+      "Week": 4,
+      "Opponent": "JAX",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "CIN",
+      "Week": 5,
+      "Opponent": "MIA",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "CIN",
+      "Week": 6,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "CIN",
+      "Week": 7,
+      "Opponent": "BAL",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "CIN",
+      "Week": 8,
+      "Opponent": "TEN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "CIN",
+      "Week": 9,
+      "Opponent": "ATL",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "CIN",
+      "Week": 10,
+      "Opponent": "PIT",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "CIN",
+      "Week": 11,
+      "Opponent": "WAS",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "CIN",
+      "Week": 12,
+      "Opponent": "NO",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "CIN",
+      "Week": 13,
+      "Opponent": "CLE",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "CIN",
+      "Week": 14,
+      "Opponent": "KC",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "CIN",
+      "Week": 15,
+      "Opponent": "CAR",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "CIN",
+      "Week": 16,
+      "Opponent": "IND",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "CIN",
+      "Week": 17,
+      "Opponent": "BAL",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "CIN",
+      "Week": 18,
+      "Opponent": "CLE",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "CLE",
+      "Week": 1,
+      "Opponent": "JAX",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "CLE",
+      "Week": 2,
+      "Opponent": "TB",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "CLE",
+      "Week": 3,
+      "Opponent": "CAR",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "CLE",
+      "Week": 4,
+      "Opponent": "PIT",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "CLE",
+      "Week": 5,
+      "Opponent": "NYJ",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "CLE",
+      "Week": 6,
+      "Opponent": "BAL",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "CLE",
+      "Week": 7,
+      "Opponent": "TEN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "CLE",
+      "Week": 8,
+      "Opponent": "PIT",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "CLE",
+      "Week": 9,
+      "Opponent": "NO",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "CLE",
+      "Week": 10,
+      "Opponent": "HOU",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "CLE",
+      "Week": 11,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "CLE",
+      "Week": 12,
+      "Opponent": "LV",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "CLE",
+      "Week": 13,
+      "Opponent": "CIN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "CLE",
+      "Week": 14,
+      "Opponent": "ATL",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "CLE",
+      "Week": 15,
+      "Opponent": "NYG",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "CLE",
+      "Week": 16,
+      "Opponent": "BAL",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "CLE",
+      "Week": 17,
+      "Opponent": "IND",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "CLE",
+      "Week": 18,
+      "Opponent": "CIN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "DAL",
+      "Week": 1,
+      "Opponent": "NYG",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "DAL",
+      "Week": 2,
+      "Opponent": "WAS",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "DAL",
+      "Week": 3,
+      "Opponent": "BAL",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "DAL",
+      "Week": 4,
+      "Opponent": "HOU",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "DAL",
+      "Week": 5,
+      "Opponent": "TB",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "DAL",
+      "Week": 6,
+      "Opponent": "GB",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "DAL",
+      "Week": 7,
+      "Opponent": "PHI",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "DAL",
+      "Week": 8,
+      "Opponent": "ARI",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "DAL",
+      "Week": 9,
+      "Opponent": "IND",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "DAL",
+      "Week": 10,
+      "Opponent": "SF",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "DAL",
+      "Week": 11,
+      "Opponent": "TEN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "DAL",
+      "Week": 12,
+      "Opponent": "PHI",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "DAL",
+      "Week": 13,
+      "Opponent": "SEA",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "DAL",
+      "Week": 14,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "DAL",
+      "Week": 15,
+      "Opponent": "LA",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "DAL",
+      "Week": 16,
+      "Opponent": "JAX",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "DAL",
+      "Week": 17,
+      "Opponent": "NYG",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "DAL",
+      "Week": 18,
+      "Opponent": "WAS",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "DEN",
+      "Week": 1,
+      "Opponent": "KC",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "DEN",
+      "Week": 2,
+      "Opponent": "JAX",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "DEN",
+      "Week": 3,
+      "Opponent": "LA",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "DEN",
+      "Week": 4,
+      "Opponent": "SF",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "DEN",
+      "Week": 5,
+      "Opponent": "LAC",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "DEN",
+      "Week": 6,
+      "Opponent": "SEA",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "DEN",
+      "Week": 7,
+      "Opponent": "ARI",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "DEN",
+      "Week": 8,
+      "Opponent": "KC",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "DEN",
+      "Week": 9,
+      "Opponent": "CAR",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "DEN",
+      "Week": 10,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "DEN",
+      "Week": 11,
+      "Opponent": "LV",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "DEN",
+      "Week": 12,
+      "Opponent": "PIT",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "DEN",
+      "Week": 13,
+      "Opponent": "MIA",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "DEN",
+      "Week": 14,
+      "Opponent": "NYJ",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "DEN",
+      "Week": 15,
+      "Opponent": "LV",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "DEN",
+      "Week": 16,
+      "Opponent": "BUF",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "DEN",
+      "Week": 17,
+      "Opponent": "NE",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "DEN",
+      "Week": 18,
+      "Opponent": "LAC",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "DET",
+      "Week": 1,
+      "Opponent": "NO",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "DET",
+      "Week": 2,
+      "Opponent": "BUF",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "DET",
+      "Week": 3,
+      "Opponent": "NYJ",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "DET",
+      "Week": 4,
+      "Opponent": "CAR",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "DET",
+      "Week": 5,
+      "Opponent": "ARI",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "DET",
+      "Week": 6,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "DET",
+      "Week": 7,
+      "Opponent": "GB",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "DET",
+      "Week": 8,
+      "Opponent": "MIN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "DET",
+      "Week": 9,
+      "Opponent": "MIA",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "DET",
+      "Week": 10,
+      "Opponent": "NE",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "DET",
+      "Week": 11,
+      "Opponent": "TB",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "DET",
+      "Week": 12,
+      "Opponent": "CHI",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "DET",
+      "Week": 13,
+      "Opponent": "ATL",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "DET",
+      "Week": 14,
+      "Opponent": "TEN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "DET",
+      "Week": 15,
+      "Opponent": "MIN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "DET",
+      "Week": 16,
+      "Opponent": "NYG",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "DET",
+      "Week": 17,
+      "Opponent": "CHI",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "DET",
+      "Week": 18,
+      "Opponent": "GB",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "GB",
+      "Week": 1,
+      "Opponent": "MIN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "GB",
+      "Week": 2,
+      "Opponent": "NYJ",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "GB",
+      "Week": 3,
+      "Opponent": "ATL",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "GB",
+      "Week": 4,
+      "Opponent": "TB",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "GB",
+      "Week": 5,
+      "Opponent": "CHI",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "GB",
+      "Week": 6,
+      "Opponent": "DAL",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "GB",
+      "Week": 7,
+      "Opponent": "DET",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "GB",
+      "Week": 8,
+      "Opponent": "CAR",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "GB",
+      "Week": 9,
+      "Opponent": "NE",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "GB",
+      "Week": 10,
+      "Opponent": "MIN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "GB",
+      "Week": 11,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "GB",
+      "Week": 12,
+      "Opponent": "LA",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "GB",
+      "Week": 13,
+      "Opponent": "NO",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "GB",
+      "Week": 14,
+      "Opponent": "BUF",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "GB",
+      "Week": 15,
+      "Opponent": "MIA",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "GB",
+      "Week": 16,
+      "Opponent": "CHI",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "GB",
+      "Week": 17,
+      "Opponent": "HOU",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "GB",
+      "Week": 18,
+      "Opponent": "DET",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "HOU",
+      "Week": 1,
+      "Opponent": "BUF",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "HOU",
+      "Week": 2,
+      "Opponent": "CIN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "HOU",
+      "Week": 3,
+      "Opponent": "IND",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "HOU",
+      "Week": 4,
+      "Opponent": "DAL",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "HOU",
+      "Week": 5,
+      "Opponent": "TEN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "HOU",
+      "Week": 6,
+      "Opponent": "JAX",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "HOU",
+      "Week": 7,
+      "Opponent": "NYG",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "HOU",
+      "Week": 8,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "HOU",
+      "Week": 9,
+      "Opponent": "LAC",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "HOU",
+      "Week": 10,
+      "Opponent": "CLE",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "HOU",
+      "Week": 11,
+      "Opponent": "IND",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "HOU",
+      "Week": 12,
+      "Opponent": "BAL",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "HOU",
+      "Week": 13,
+      "Opponent": "PIT",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "HOU",
+      "Week": 14,
+      "Opponent": "WAS",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "HOU",
+      "Week": 15,
+      "Opponent": "JAX",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "HOU",
+      "Week": 16,
+      "Opponent": "PHI",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "HOU",
+      "Week": 17,
+      "Opponent": "GB",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "HOU",
+      "Week": 18,
+      "Opponent": "TEN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "IND",
+      "Week": 1,
+      "Opponent": "BAL",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "IND",
+      "Week": 2,
+      "Opponent": "KC",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "IND",
+      "Week": 3,
+      "Opponent": "HOU",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "IND",
+      "Week": 4,
+      "Opponent": "WAS",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "IND",
+      "Week": 5,
+      "Opponent": "PIT",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "IND",
+      "Week": 6,
+      "Opponent": "TEN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "IND",
+      "Week": 7,
+      "Opponent": "MIN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "IND",
+      "Week": 8,
+      "Opponent": "JAX",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "IND",
+      "Week": 9,
+      "Opponent": "DAL",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "IND",
+      "Week": 10,
+      "Opponent": "MIA",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "IND",
+      "Week": 11,
+      "Opponent": "HOU",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "IND",
+      "Week": 12,
+      "Opponent": "NYG",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "IND",
+      "Week": 13,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "IND",
+      "Week": 14,
+      "Opponent": "PHI",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "IND",
+      "Week": 15,
+      "Opponent": "TEN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "IND",
+      "Week": 16,
+      "Opponent": "CIN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "IND",
+      "Week": 17,
+      "Opponent": "CLE",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "IND",
+      "Week": 18,
+      "Opponent": "JAX",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "JAX",
+      "Week": 1,
+      "Opponent": "CLE",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "JAX",
+      "Week": 2,
+      "Opponent": "DEN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "JAX",
+      "Week": 3,
+      "Opponent": "NE",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "JAX",
+      "Week": 4,
+      "Opponent": "CIN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "JAX",
+      "Week": 5,
+      "Opponent": "PHI",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "JAX",
+      "Week": 6,
+      "Opponent": "HOU",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "JAX",
+      "Week": 7,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "JAX",
+      "Week": 8,
+      "Opponent": "IND",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "JAX",
+      "Week": 9,
+      "Opponent": "BAL",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "JAX",
+      "Week": 10,
+      "Opponent": "TEN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "JAX",
+      "Week": 11,
+      "Opponent": "NYG",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "JAX",
+      "Week": 12,
+      "Opponent": "TEN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "JAX",
+      "Week": 13,
+      "Opponent": "CHI",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "JAX",
+      "Week": 14,
+      "Opponent": "PIT",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "JAX",
+      "Week": 15,
+      "Opponent": "HOU",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "JAX",
+      "Week": 16,
+      "Opponent": "DAL",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "JAX",
+      "Week": 17,
+      "Opponent": "WAS",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "JAX",
+      "Week": 18,
+      "Opponent": "IND",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "KC",
+      "Week": 1,
+      "Opponent": "DEN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "KC",
+      "Week": 2,
+      "Opponent": "IND",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "KC",
+      "Week": 3,
+      "Opponent": "MIA",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "KC",
+      "Week": 4,
+      "Opponent": "LV",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "KC",
+      "Week": 5,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "KC",
+      "Week": 6,
+      "Opponent": "LAC",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "KC",
+      "Week": 7,
+      "Opponent": "SEA",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "KC",
+      "Week": 8,
+      "Opponent": "DEN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "KC",
+      "Week": 9,
+      "Opponent": "NYJ",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "KC",
+      "Week": 10,
+      "Opponent": "ATL",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "KC",
+      "Week": 11,
+      "Opponent": "ARI",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "KC",
+      "Week": 12,
+      "Opponent": "BUF",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "KC",
+      "Week": 13,
+      "Opponent": "LA",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "KC",
+      "Week": 14,
+      "Opponent": "CIN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "KC",
+      "Week": 15,
+      "Opponent": "NE",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "KC",
+      "Week": 16,
+      "Opponent": "SF",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "KC",
+      "Week": 17,
+      "Opponent": "LAC",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "KC",
+      "Week": 18,
+      "Opponent": "LV",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "LV",
+      "Week": 1,
+      "Opponent": "MIA",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "LV",
+      "Week": 2,
+      "Opponent": "LAC",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "LV",
+      "Week": 3,
+      "Opponent": "NO",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "LV",
+      "Week": 4,
+      "Opponent": "KC",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "LV",
+      "Week": 5,
+      "Opponent": "NE",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "LV",
+      "Week": 6,
+      "Opponent": "BUF",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "LV",
+      "Week": 7,
+      "Opponent": "LA",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "LV",
+      "Week": 8,
+      "Opponent": "NYJ",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "LV",
+      "Week": 9,
+      "Opponent": "SF",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "LV",
+      "Week": 10,
+      "Opponent": "SEA",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "LV",
+      "Week": 11,
+      "Opponent": "DEN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "LV",
+      "Week": 12,
+      "Opponent": "CLE",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "LV",
+      "Week": 13,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "LV",
+      "Week": 14,
+      "Opponent": "LAC",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "LV",
+      "Week": 15,
+      "Opponent": "DEN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "LV",
+      "Week": 16,
+      "Opponent": "TEN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "LV",
+      "Week": 17,
+      "Opponent": "ARI",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "LV",
+      "Week": 18,
+      "Opponent": "KC",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "LAC",
+      "Week": 1,
+      "Opponent": "ARI",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "LAC",
+      "Week": 2,
+      "Opponent": "LV",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "LAC",
+      "Week": 3,
+      "Opponent": "BUF",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "LAC",
+      "Week": 4,
+      "Opponent": "SEA",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "LAC",
+      "Week": 5,
+      "Opponent": "DEN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "LAC",
+      "Week": 6,
+      "Opponent": "KC",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "LAC",
+      "Week": 7,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "LAC",
+      "Week": 8,
+      "Opponent": "LA",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "LAC",
+      "Week": 9,
+      "Opponent": "HOU",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "LAC",
+      "Week": 10,
+      "Opponent": "BAL",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "LAC",
+      "Week": 11,
+      "Opponent": "NYJ",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "LAC",
+      "Week": 12,
+      "Opponent": "NE",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "LAC",
+      "Week": 13,
+      "Opponent": "TB",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "LAC",
+      "Week": 14,
+      "Opponent": "LV",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "LAC",
+      "Week": 15,
+      "Opponent": "SF",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "LAC",
+      "Week": 16,
+      "Opponent": "MIA",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "LAC",
+      "Week": 17,
+      "Opponent": "KC",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "LAC",
+      "Week": 18,
+      "Opponent": "DEN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "LA",
+      "Week": 1,
+      "Opponent": "SF",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "LA",
+      "Week": 2,
+      "Opponent": "NYG",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "LA",
+      "Week": 3,
+      "Opponent": "DEN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "LA",
+      "Week": 4,
+      "Opponent": "PHI",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "LA",
+      "Week": 5,
+      "Opponent": "BUF",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "LA",
+      "Week": 6,
+      "Opponent": "ARI",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "LA",
+      "Week": 7,
+      "Opponent": "LV",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "LA",
+      "Week": 8,
+      "Opponent": "LAC",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "LA",
+      "Week": 9,
+      "Opponent": "WAS",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "LA",
+      "Week": 10,
+      "Opponent": "ARI",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "LA",
+      "Week": 11,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "LA",
+      "Week": 12,
+      "Opponent": "GB",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "LA",
+      "Week": 13,
+      "Opponent": "KC",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "LA",
+      "Week": 14,
+      "Opponent": "SF",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "LA",
+      "Week": 15,
+      "Opponent": "DAL",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "LA",
+      "Week": 16,
+      "Opponent": "SEA",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "LA",
+      "Week": 17,
+      "Opponent": "TB",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "LA",
+      "Week": 18,
+      "Opponent": "SEA",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "MIA",
+      "Week": 1,
+      "Opponent": "LV",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "MIA",
+      "Week": 2,
+      "Opponent": "SF",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "MIA",
+      "Week": 3,
+      "Opponent": "KC",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "MIA",
+      "Week": 4,
+      "Opponent": "MIN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "MIA",
+      "Week": 5,
+      "Opponent": "CIN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "MIA",
+      "Week": 6,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "MIA",
+      "Week": 7,
+      "Opponent": "NYJ",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "MIA",
+      "Week": 8,
+      "Opponent": "NE",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "MIA",
+      "Week": 9,
+      "Opponent": "DET",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "MIA",
+      "Week": 10,
+      "Opponent": "IND",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "MIA",
+      "Week": 11,
+      "Opponent": "BUF",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "MIA",
+      "Week": 12,
+      "Opponent": "NYJ",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "MIA",
+      "Week": 13,
+      "Opponent": "DEN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "MIA",
+      "Week": 14,
+      "Opponent": "CHI",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "MIA",
+      "Week": 15,
+      "Opponent": "GB",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "MIA",
+      "Week": 16,
+      "Opponent": "LAC",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "MIA",
+      "Week": 17,
+      "Opponent": "BUF",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "MIA",
+      "Week": 18,
+      "Opponent": "NE",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "MIN",
+      "Week": 1,
+      "Opponent": "GB",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "MIN",
+      "Week": 2,
+      "Opponent": "CHI",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "MIN",
+      "Week": 3,
+      "Opponent": "TB",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "MIN",
+      "Week": 4,
+      "Opponent": "MIA",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "MIN",
+      "Week": 5,
+      "Opponent": "NO",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "MIN",
+      "Week": 6,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "MIN",
+      "Week": 7,
+      "Opponent": "IND",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "MIN",
+      "Week": 8,
+      "Opponent": "DET",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "MIN",
+      "Week": 9,
+      "Opponent": "BUF",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "MIN",
+      "Week": 10,
+      "Opponent": "GB",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "MIN",
+      "Week": 11,
+      "Opponent": "SF",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "MIN",
+      "Week": 12,
+      "Opponent": "ATL",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "MIN",
+      "Week": 13,
+      "Opponent": "CAR",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "MIN",
+      "Week": 14,
+      "Opponent": "NE",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "MIN",
+      "Week": 15,
+      "Opponent": "DET",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "MIN",
+      "Week": 16,
+      "Opponent": "WAS",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "MIN",
+      "Week": 17,
+      "Opponent": "NYJ",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "MIN",
+      "Week": 18,
+      "Opponent": "CHI",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "NE",
+      "Week": 1,
+      "Opponent": "SEA",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "NE",
+      "Week": 2,
+      "Opponent": "PIT",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "NE",
+      "Week": 3,
+      "Opponent": "JAX",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "NE",
+      "Week": 4,
+      "Opponent": "BUF",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "NE",
+      "Week": 5,
+      "Opponent": "LV",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "NE",
+      "Week": 6,
+      "Opponent": "NYJ",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "NE",
+      "Week": 7,
+      "Opponent": "CHI",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "NE",
+      "Week": 8,
+      "Opponent": "MIA",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "NE",
+      "Week": 9,
+      "Opponent": "GB",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "NE",
+      "Week": 10,
+      "Opponent": "DET",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "NE",
+      "Week": 11,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "NE",
+      "Week": 12,
+      "Opponent": "LAC",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "NE",
+      "Week": 13,
+      "Opponent": "BUF",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "NE",
+      "Week": 14,
+      "Opponent": "MIN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "NE",
+      "Week": 15,
+      "Opponent": "KC",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "NE",
+      "Week": 16,
+      "Opponent": "NYJ",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "NE",
+      "Week": 17,
+      "Opponent": "DEN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "NE",
+      "Week": 18,
+      "Opponent": "MIA",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "NO",
+      "Week": 1,
+      "Opponent": "DET",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "NO",
+      "Week": 2,
+      "Opponent": "BAL",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "NO",
+      "Week": 3,
+      "Opponent": "LV",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "NO",
+      "Week": 4,
+      "Opponent": "ATL",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "NO",
+      "Week": 5,
+      "Opponent": "MIN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "NO",
+      "Week": 6,
+      "Opponent": "NYG",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "NO",
+      "Week": 7,
+      "Opponent": "PIT",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "NO",
+      "Week": 8,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "NO",
+      "Week": 9,
+      "Opponent": "CLE",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "NO",
+      "Week": 10,
+      "Opponent": "CAR",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "NO",
+      "Week": 11,
+      "Opponent": "CHI",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "NO",
+      "Week": 12,
+      "Opponent": "CIN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "NO",
+      "Week": 13,
+      "Opponent": "GB",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "NO",
+      "Week": 14,
+      "Opponent": "CAR",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "NO",
+      "Week": 15,
+      "Opponent": "TB",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "NO",
+      "Week": 16,
+      "Opponent": "ARI",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "NO",
+      "Week": 17,
+      "Opponent": "ATL",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "NO",
+      "Week": 18,
+      "Opponent": "TB",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "NYG",
+      "Week": 1,
+      "Opponent": "DAL",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "NYG",
+      "Week": 2,
+      "Opponent": "LA",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "NYG",
+      "Week": 3,
+      "Opponent": "TEN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "NYG",
+      "Week": 4,
+      "Opponent": "ARI",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "NYG",
+      "Week": 5,
+      "Opponent": "WAS",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "T"
+    },
+    {
+      "Team": "NYG",
+      "Week": 6,
+      "Opponent": "NO",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "NYG",
+      "Week": 7,
+      "Opponent": "HOU",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "NYG",
+      "Week": 8,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "NYG",
+      "Week": 9,
+      "Opponent": "PHI",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "NYG",
+      "Week": 10,
+      "Opponent": "WAS",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "NYG",
+      "Week": 11,
+      "Opponent": "JAX",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "NYG",
+      "Week": 12,
+      "Opponent": "IND",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "NYG",
+      "Week": 13,
+      "Opponent": "SF",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "NYG",
+      "Week": 14,
+      "Opponent": "SEA",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "NYG",
+      "Week": 15,
+      "Opponent": "CLE",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "NYG",
+      "Week": 16,
+      "Opponent": "DET",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "NYG",
+      "Week": 17,
+      "Opponent": "DAL",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "NYG",
+      "Week": 18,
+      "Opponent": "PHI",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "NYJ",
+      "Week": 1,
+      "Opponent": "TEN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "NYJ",
+      "Week": 2,
+      "Opponent": "GB",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "NYJ",
+      "Week": 3,
+      "Opponent": "DET",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "NYJ",
+      "Week": 4,
+      "Opponent": "CHI",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "NYJ",
+      "Week": 5,
+      "Opponent": "CLE",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "NYJ",
+      "Week": 6,
+      "Opponent": "NE",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "NYJ",
+      "Week": 7,
+      "Opponent": "MIA",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "NYJ",
+      "Week": 8,
+      "Opponent": "LV",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "NYJ",
+      "Week": 9,
+      "Opponent": "KC",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "NYJ",
+      "Week": 10,
+      "Opponent": "BUF",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "NYJ",
+      "Week": 11,
+      "Opponent": "LAC",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "NYJ",
+      "Week": 12,
+      "Opponent": "MIA",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "NYJ",
+      "Week": 13,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "NYJ",
+      "Week": 14,
+      "Opponent": "DEN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "NYJ",
+      "Week": 15,
+      "Opponent": "ARI",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "NYJ",
+      "Week": 16,
+      "Opponent": "NE",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "NYJ",
+      "Week": 17,
+      "Opponent": "MIN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "NYJ",
+      "Week": 18,
+      "Opponent": "BUF",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "PHI",
+      "Week": 1,
+      "Opponent": "WAS",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "PHI",
+      "Week": 2,
+      "Opponent": "TEN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "PHI",
+      "Week": 3,
+      "Opponent": "CHI",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "PHI",
+      "Week": 4,
+      "Opponent": "LA",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "PHI",
+      "Week": 5,
+      "Opponent": "JAX",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "PHI",
+      "Week": 6,
+      "Opponent": "CAR",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "PHI",
+      "Week": 7,
+      "Opponent": "DAL",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "PHI",
+      "Week": 8,
+      "Opponent": "WAS",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "PHI",
+      "Week": 9,
+      "Opponent": "NYG",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "PHI",
+      "Week": 10,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "PHI",
+      "Week": 11,
+      "Opponent": "PIT",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "PHI",
+      "Week": 12,
+      "Opponent": "DAL",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "PHI",
+      "Week": 13,
+      "Opponent": "ARI",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "PHI",
+      "Week": 14,
+      "Opponent": "IND",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "PHI",
+      "Week": 15,
+      "Opponent": "SEA",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "PHI",
+      "Week": 16,
+      "Opponent": "HOU",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "PHI",
+      "Week": 17,
+      "Opponent": "SF",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "PHI",
+      "Week": 18,
+      "Opponent": "NYG",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "PIT",
+      "Week": 1,
+      "Opponent": "ATL",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "PIT",
+      "Week": 2,
+      "Opponent": "NE",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "PIT",
+      "Week": 3,
+      "Opponent": "CIN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "PIT",
+      "Week": 4,
+      "Opponent": "CLE",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "PIT",
+      "Week": 5,
+      "Opponent": "IND",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "PIT",
+      "Week": 6,
+      "Opponent": "TB",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "PIT",
+      "Week": 7,
+      "Opponent": "NO",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "PIT",
+      "Week": 8,
+      "Opponent": "CLE",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "PIT",
+      "Week": 9,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "PIT",
+      "Week": 10,
+      "Opponent": "CIN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "PIT",
+      "Week": 11,
+      "Opponent": "PHI",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "PIT",
+      "Week": 12,
+      "Opponent": "DEN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "PIT",
+      "Week": 13,
+      "Opponent": "HOU",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "PIT",
+      "Week": 14,
+      "Opponent": "JAX",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "PIT",
+      "Week": 15,
+      "Opponent": "BAL",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "PIT",
+      "Week": 16,
+      "Opponent": "CAR",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "PIT",
+      "Week": 17,
+      "Opponent": "TEN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "PIT",
+      "Week": 18,
+      "Opponent": "BAL",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "SF",
+      "Week": 1,
+      "Opponent": "LA",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "SF",
+      "Week": 2,
+      "Opponent": "MIA",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "SF",
+      "Week": 3,
+      "Opponent": "ARI",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "SF",
+      "Week": 4,
+      "Opponent": "DEN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "SF",
+      "Week": 5,
+      "Opponent": "SEA",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "SF",
+      "Week": 6,
+      "Opponent": "WAS",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "SF",
+      "Week": 7,
+      "Opponent": "ATL",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "SF",
+      "Week": 8,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "SF",
+      "Week": 9,
+      "Opponent": "LV",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "SF",
+      "Week": 10,
+      "Opponent": "DAL",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "SF",
+      "Week": 11,
+      "Opponent": "MIN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "SF",
+      "Week": 12,
+      "Opponent": "SEA",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "SF",
+      "Week": 13,
+      "Opponent": "NYG",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "SF",
+      "Week": 14,
+      "Opponent": "LA",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "SF",
+      "Week": 15,
+      "Opponent": "LAC",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "SF",
+      "Week": 16,
+      "Opponent": "KC",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "SF",
+      "Week": 17,
+      "Opponent": "PHI",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "SF",
+      "Week": 18,
+      "Opponent": "ARI",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "SEA",
+      "Week": 1,
+      "Opponent": "NE",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "SEA",
+      "Week": 2,
+      "Opponent": "ARI",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "SEA",
+      "Week": 3,
+      "Opponent": "WAS",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "SEA",
+      "Week": 4,
+      "Opponent": "LAC",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "SEA",
+      "Week": 5,
+      "Opponent": "SF",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "SEA",
+      "Week": 6,
+      "Opponent": "DEN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "SEA",
+      "Week": 7,
+      "Opponent": "KC",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "SEA",
+      "Week": 8,
+      "Opponent": "CHI",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "SEA",
+      "Week": 9,
+      "Opponent": "ARI",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "SEA",
+      "Week": 10,
+      "Opponent": "LV",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "SEA",
+      "Week": 11,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "SEA",
+      "Week": 12,
+      "Opponent": "SF",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "SEA",
+      "Week": 13,
+      "Opponent": "DAL",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "SEA",
+      "Week": 14,
+      "Opponent": "NYG",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "SEA",
+      "Week": 15,
+      "Opponent": "PHI",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "SEA",
+      "Week": 16,
+      "Opponent": "LA",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "SEA",
+      "Week": 17,
+      "Opponent": "CAR",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "SEA",
+      "Week": 18,
+      "Opponent": "LA",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "TB",
+      "Week": 1,
+      "Opponent": "CIN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "TB",
+      "Week": 2,
+      "Opponent": "CLE",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "TB",
+      "Week": 3,
+      "Opponent": "MIN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "TB",
+      "Week": 4,
+      "Opponent": "GB",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "TB",
+      "Week": 5,
+      "Opponent": "DAL",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "TB",
+      "Week": 6,
+      "Opponent": "PIT",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "TB",
+      "Week": 7,
+      "Opponent": "CAR",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "TB",
+      "Week": 8,
+      "Opponent": "ATL",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "TB",
+      "Week": 9,
+      "Opponent": "CHI",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "TB",
+      "Week": 10,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "TB",
+      "Week": 11,
+      "Opponent": "DET",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "TB",
+      "Week": 12,
+      "Opponent": "CAR",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "TB",
+      "Week": 13,
+      "Opponent": "LAC",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "TB",
+      "Week": 14,
+      "Opponent": "BAL",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "TB",
+      "Week": 15,
+      "Opponent": "NO",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "TB",
+      "Week": 16,
+      "Opponent": "ATL",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "TB",
+      "Week": 17,
+      "Opponent": "LA",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "TB",
+      "Week": 18,
+      "Opponent": "NO",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "TEN",
+      "Week": 1,
+      "Opponent": "NYJ",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "TEN",
+      "Week": 2,
+      "Opponent": "PHI",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "TEN",
+      "Week": 3,
+      "Opponent": "NYG",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "TEN",
+      "Week": 4,
+      "Opponent": "BAL",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "TEN",
+      "Week": 5,
+      "Opponent": "HOU",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "TEN",
+      "Week": 6,
+      "Opponent": "IND",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "TEN",
+      "Week": 7,
+      "Opponent": "CLE",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "TEN",
+      "Week": 8,
+      "Opponent": "CIN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "TEN",
+      "Week": 9,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "TEN",
+      "Week": 10,
+      "Opponent": "JAX",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "TEN",
+      "Week": 11,
+      "Opponent": "DAL",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "TEN",
+      "Week": 12,
+      "Opponent": "JAX",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "TEN",
+      "Week": 13,
+      "Opponent": "WAS",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "TEN",
+      "Week": 14,
+      "Opponent": "DET",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "TEN",
+      "Week": 15,
+      "Opponent": "IND",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "TEN",
+      "Week": 16,
+      "Opponent": "LV",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "TEN",
+      "Week": 17,
+      "Opponent": "PIT",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "TEN",
+      "Week": 18,
+      "Opponent": "HOU",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "WAS",
+      "Week": 1,
+      "Opponent": "PHI",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "WAS",
+      "Week": 2,
+      "Opponent": "DAL",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": "L"
+    },
+    {
+      "Team": "WAS",
+      "Week": 3,
+      "Opponent": "SEA",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "W"
+    },
+    {
+      "Team": "WAS",
+      "Week": 4,
+      "Opponent": "IND",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "WAS",
+      "Week": 5,
+      "Opponent": "NYG",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "T"
+    },
+    {
+      "Team": "WAS",
+      "Week": 6,
+      "Opponent": "SF",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": "L"
+    },
+    {
+      "Team": "WAS",
+      "Week": 7,
+      "Opponent": null,
+      "GameType": "Bye",
+      "H/A": null,
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "WAS",
+      "Week": 8,
+      "Opponent": "PHI",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": "W"
+    },
+    {
+      "Team": "WAS",
+      "Week": 9,
+      "Opponent": "LA",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "WAS",
+      "Week": 10,
+      "Opponent": "NYG",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": "D",
+      "Result": null
+    },
+    {
+      "Team": "WAS",
+      "Week": 11,
+      "Opponent": "CIN",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "WAS",
+      "Week": 12,
+      "Opponent": "ARI",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "WAS",
+      "Week": 13,
+      "Opponent": "TEN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "WAS",
+      "Week": 14,
+      "Opponent": "HOU",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "WAS",
+      "Week": 15,
+      "Opponent": "ATL",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "WAS",
+      "Week": 16,
+      "Opponent": "MIN",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "WAS",
+      "Week": 17,
+      "Opponent": "JAX",
+      "GameType": "Regular",
+      "H/A": "A",
+      "Divisional": null,
+      "Result": null
+    },
+    {
+      "Team": "WAS",
+      "Week": 18,
+      "Opponent": "DAL",
+      "GameType": "Regular",
+      "H/A": "H",
+      "Divisional": "D",
+      "Result": null
+    }
+  ],
+  "metrics": [
+    {
+      "Team": "ARI",
+      "Week": 1,
+      "NetEPA": 0.305925433648415,
+      "NetWEPA": 0.2402905829971011,
+      "PointsDif": 12,
+      "Rating": 29.9
+    },
+    {
+      "Team": "ATL",
+      "Week": 1,
+      "NetEPA": -0.106238309543628,
+      "NetWEPA": -0.207019319033108,
+      "PointsDif": -7,
+      "Rating": 35.7
+    },
+    {
+      "Team": "BAL",
+      "Week": 1,
+      "NetEPA": 0.433311282759755,
+      "NetWEPA": 0.4176494347322112,
+      "PointsDif": 18,
+      "Rating": 68.4
+    },
+    {
+      "Team": "BUF",
+      "Week": 1,
+      "NetEPA": 0.2289889375985235,
+      "NetWEPA": 0.4255346712557416,
+      "PointsDif": 5,
+      "Rating": 65.4
+    },
+    {
+      "Team": "CAR",
+      "Week": 1,
+      "NetEPA": -0.23089659867344298,
+      "NetWEPA": 0.11526130439638999,
+      "PointsDif": -22,
+      "Rating": 36.3
+    },
+    {
+      "Team": "CHI",
+      "Week": 1,
+      "NetEPA": 0.23089659867344298,
+      "NetWEPA": 0.43129636401822025,
+      "PointsDif": 22,
+      "Rating": 57.1
+    },
+    {
+      "Team": "CIN",
+      "Week": 1,
+      "NetEPA": 0.08269046455895017,
+      "NetWEPA": 0.0238811121022065,
+      "PointsDif": 6,
+      "Rating": 59.3
+    },
+    {
+      "Team": "CLE",
+      "Week": 1,
+      "NetEPA": -0.515478861619447,
+      "NetWEPA": -0.20035148423187038,
+      "PointsDif": -24,
+      "Rating": 26
+    },
+    {
+      "Team": "DAL",
+      "Week": 1,
+      "NetEPA": -0.092004727383377,
+      "NetWEPA": 0.12845345307081701,
+      "PointsDif": -8,
+      "Rating": 54.8
+    },
+    {
+      "Team": "DEN",
+      "Week": 1,
+      "NetEPA": -0.495942299074799,
+      "NetWEPA": -0.494479960687225,
+      "PointsDif": -21,
+      "Rating": 58
+    },
+    {
+      "Team": "DET",
+      "Week": 1,
+      "NetEPA": -0.0570713091310425,
+      "NetWEPA": 0.0764254298412236,
+      "PointsDif": 1,
+      "Rating": 59.3
+    },
+    {
+      "Team": "GB",
+      "Week": 1,
+      "NetEPA": -0.2366529518089664,
+      "NetWEPA": 0.10966192720720659,
+      "PointsDif": -17,
+      "Rating": 56.6
+    },
+    {
+      "Team": "HOU",
+      "Week": 1,
+      "NetEPA": -0.2289889375985235,
+      "NetWEPA": 0.0884246516767061,
+      "PointsDif": -5,
+      "Rating": 60.1
+    },
+    {
+      "Team": "IND",
+      "Week": 1,
+      "NetEPA": -0.433311282759755,
+      "NetWEPA": -0.26115095080066,
+      "PointsDif": -18,
+      "Rating": 43.3
+    },
+    {
+      "Team": "JAX",
+      "Week": 1,
+      "NetEPA": 0.515478861619447,
+      "NetWEPA": 0.5030232927298485,
+      "PointsDif": 24,
+      "Rating": 58
+    },
+    {
+      "Team": "KC",
+      "Week": 1,
+      "NetEPA": 0.495942299074799,
+      "NetWEPA": 0.2012503072432672,
+      "PointsDif": 21,
+      "Rating": 65.6
+    },
+    {
+      "Team": "LV",
+      "Week": 1,
+      "NetEPA": 0.2133197079079668,
+      "NetWEPA": 0.16074993360085632,
+      "PointsDif": 14,
+      "Rating": 34.8
+    },
+    {
+      "Team": "LAC",
+      "Week": 1,
+      "NetEPA": -0.305925433648415,
+      "NetWEPA": -0.2060711095286511,
+      "PointsDif": -12,
+      "Rating": 58.8
+    },
+    {
+      "Team": "LA",
+      "Week": 1,
+      "NetEPA": -0.415694727668313,
+      "NetWEPA": -0.257458579660721,
+      "PointsDif": -20,
+      "Rating": 72.8
+    },
+    {
+      "Team": "MIA",
+      "Week": 1,
+      "NetEPA": -0.2133197079079668,
+      "NetWEPA": -0.1355592634940771,
+      "PointsDif": -14,
+      "Rating": 24.2
+    },
+    {
+      "Team": "MIN",
+      "Week": 1,
+      "NetEPA": 0.2366529518089664,
+      "NetWEPA": 0.152758657901871,
+      "PointsDif": 17,
+      "Rating": 47.7
+    },
+    {
+      "Team": "NE",
+      "Week": 1,
+      "NetEPA": -0.12099415534490181,
+      "NetWEPA": 0.091180302381941,
+      "PointsDif": -3,
+      "Rating": 60.1
+    },
+    {
+      "Team": "NO",
+      "Week": 1,
+      "NetEPA": 0.0570713091310425,
+      "NetWEPA": 0.16793155786791342,
+      "PointsDif": -1,
+      "Rating": 38.6
+    },
+    {
+      "Team": "NYG",
+      "Week": 1,
+      "NetEPA": 0.092004727383377,
+      "NetWEPA": 0.4326889959344164,
+      "PointsDif": 8,
+      "Rating": 44.8
+    },
+    {
+      "Team": "NYJ",
+      "Week": 1,
+      "NetEPA": 0.267522047461863,
+      "NetWEPA": 0.3109201101667551,
+      "PointsDif": 13,
+      "Rating": 31.6
+    },
+    {
+      "Team": "PHI",
+      "Week": 1,
+      "NetEPA": -0.0460935612595114,
+      "NetWEPA": 0.0998171217750103,
+      "PointsDif": 2,
+      "Rating": 60.4
+    },
+    {
+      "Team": "PIT",
+      "Week": 1,
+      "NetEPA": 0.106238309543628,
+      "NetWEPA": 0.052509996791928,
+      "PointsDif": 7,
+      "Rating": 47.1
+    },
+    {
+      "Team": "SF",
+      "Week": 1,
+      "NetEPA": 0.415694727668313,
+      "NetWEPA": 0.3234854887384904,
+      "PointsDif": 20,
+      "Rating": 64.5
+    },
+    {
+      "Team": "SEA",
+      "Week": 1,
+      "NetEPA": 0.12099415534490181,
+      "NetWEPA": 0.2532508007775147,
+      "PointsDif": 3,
+      "Rating": 64.9
+    },
+    {
+      "Team": "TB",
+      "Week": 1,
+      "NetEPA": -0.08269046455895017,
+      "NetWEPA": 0.2414377839552106,
+      "PointsDif": -6,
+      "Rating": 44.3
+    },
+    {
+      "Team": "TEN",
+      "Week": 1,
+      "NetEPA": -0.267522047461863,
+      "NetWEPA": -0.2368804870741869,
+      "PointsDif": -13,
+      "Rating": 31.4
+    },
+    {
+      "Team": "WAS",
+      "Week": 1,
+      "NetEPA": 0.0460935612595114,
+      "NetWEPA": 0.11171802639355571,
+      "PointsDif": -2,
+      "Rating": 44.5
+    },
+    {
+      "Team": "ARI",
+      "Week": 2,
+      "NetEPA": -0.041343063658989425,
+      "NetWEPA": 0.037767497661506846,
+      "PointsDif": -6,
+      "Rating": 32.7
+    },
+    {
+      "Team": "ATL",
+      "Week": 2,
+      "NetEPA": -0.317857910237831,
+      "NetWEPA": -0.2188447218567533,
+      "PointsDif": -19,
+      "Rating": 31.9
+    },
+    {
+      "Team": "BAL",
+      "Week": 2,
+      "NetEPA": 0.1917248145821419,
+      "NetWEPA": 0.27295717166394,
+      "PointsDif": 5.5,
+      "Rating": 66.7
+    },
+    {
+      "Team": "BUF",
+      "Week": 2,
+      "NetEPA": 0.212239749512594,
+      "NetWEPA": 0.4193032835624973,
+      "PointsDif": 7.5,
+      "Rating": 70.9
+    },
+    {
+      "Team": "CAR",
+      "Week": 2,
+      "NetEPA": 0.12829010279346859,
+      "NetWEPA": 0.218023896693931,
+      "PointsDif": 4.5,
+      "Rating": 38.5
+    },
+    {
+      "Team": "CHI",
+      "Week": 2,
+      "NetEPA": 0.0727584916394844,
+      "NetWEPA": 0.21313092943534823,
+      "PointsDif": 8,
+      "Rating": 55.4
+    },
+    {
+      "Team": "CIN",
+      "Week": 2,
+      "NetEPA": 0.12262013369074799,
+      "NetWEPA": 0.09136347936878281,
+      "PointsDif": 10,
+      "Rating": 59.4
+    },
+    {
+      "Team": "CLE",
+      "Week": 2,
+      "NetEPA": -0.12068105710658,
+      "NetWEPA": 0.003577891035539401,
+      "PointsDif": -10,
+      "Rating": 25.2
+    },
+    {
+      "Team": "DAL",
+      "Week": 2,
+      "NetEPA": 0.06046131941625402,
+      "NetWEPA": 0.2510750565796717,
+      "PointsDif": 4.5,
+      "Rating": 59.1
+    },
+    {
+      "Team": "DEN",
+      "Week": 2,
+      "NetEPA": -0.1420659760725694,
+      "NetWEPA": -0.1505124437503482,
+      "PointsDif": -7,
+      "Rating": 60.1
+    },
+    {
+      "Team": "DET",
+      "Week": 2,
+      "NetEPA": -0.09843638592779,
+      "NetWEPA": 0.087181125931942,
+      "PointsDif": -4.5,
+      "Rating": 56.9
+    },
+    {
+      "Team": "GB",
+      "Week": 2,
+      "NetEPA": -0.1415645874430415,
+      "NetWEPA": 0.1576347950004042,
+      "PointsDif": -7,
+      "Rating": 55.9
+    },
+    {
+      "Team": "HOU",
+      "Week": 2,
+      "NetEPA": -0.1734550224904499,
+      "NetWEPA": 0.010999789662260359,
+      "PointsDif": -9.5,
+      "Rating": 61
+    },
+    {
+      "Team": "IND",
+      "Week": 2,
+      "NetEPA": -0.19080035556489,
+      "NetWEPA": -0.0568031138412977,
+      "PointsDif": -10.5,
+      "Rating": 45.4
+    },
+    {
+      "Team": "JAX",
+      "Week": 2,
+      "NetEPA": 0.1471642464834057,
+      "NetWEPA": 0.1795688221718637,
+      "PointsDif": 8.5,
+      "Rating": 59.3
+    },
+    {
+      "Team": "KC",
+      "Week": 2,
+      "NetEPA": 0.20836558589244938,
+      "NetWEPA": 0.1211297678191015,
+      "PointsDif": 12,
+      "Rating": 66
+    },
+    {
+      "Team": "LV",
+      "Week": 2,
+      "NetEPA": 0.21262493709833682,
+      "NetWEPA": 0.24159212187091922,
+      "PointsDif": 13,
+      "Rating": 39
+    },
+    {
+      "Team": "LAC",
+      "Week": 2,
+      "NetEPA": -0.2720253436449233,
+      "NetWEPA": -0.05344727845963631,
+      "PointsDif": -12,
+      "Rating": 51.1
+    },
+    {
+      "Team": "LA",
+      "Week": 2,
+      "NetEPA": 0.0847429853583725,
+      "NetWEPA": 0.15922826974157478,
+      "PointsDif": 1,
+      "Rating": 74.2
+    },
+    {
+      "Team": "MIA",
+      "Week": 2,
+      "NetEPA": -0.272835792608028,
+      "NetWEPA": -0.13295501736198112,
+      "PointsDif": -18,
+      "Rating": 21.9
+    },
+    {
+      "Team": "MIN",
+      "Week": 2,
+      "NetEPA": 0.1552235953213289,
+      "NetWEPA": 0.11543560825158641,
+      "PointsDif": 11.5,
+      "Rating": 51.1
+    },
+    {
+      "Team": "NE",
+      "Week": 2,
+      "NetEPA": 0.10659410106786679,
+      "NetWEPA": 0.1423678260988479,
+      "PointsDif": 7,
+      "Rating": 59.8
+    },
+    {
+      "Team": "NO",
+      "Week": 2,
+      "NetEPA": 0.0429798387519057,
+      "NetWEPA": 0.1053894970997618,
+      "PointsDif": 3,
+      "Rating": 42.1
+    },
+    {
+      "Team": "NYG",
+      "Week": 2,
+      "NetEPA": -0.2427986654216511,
+      "NetWEPA": 0.003956811850657202,
+      "PointsDif": -7,
+      "Rating": 41.2
+    },
+    {
+      "Team": "NYJ",
+      "Week": 2,
+      "NetEPA": 0.1553904469416426,
+      "NetWEPA": 0.20625043768703188,
+      "PointsDif": 5,
+      "Rating": 33.9
+    },
+    {
+      "Team": "PHI",
+      "Week": 2,
+      "NetEPA": -0.0249586240767977,
+      "NetWEPA": 0.05169182599927276,
+      "PointsDif": 3,
+      "Rating": 64
+    },
+    {
+      "Team": "PIT",
+      "Week": 2,
+      "NetEPA": -0.07879674019230798,
+      "NetWEPA": -0.12927056910600399,
+      "PointsDif": -5,
+      "Rating": 41.9
+    },
+    {
+      "Team": "SF",
+      "Week": 2,
+      "NetEPA": 0.393231253281892,
+      "NetWEPA": 0.443944253436788,
+      "PointsDif": 21,
+      "Rating": 67.8
+    },
+    {
+      "Team": "SEA",
+      "Week": 2,
+      "NetEPA": 0.26790597936071614,
+      "NetWEPA": 0.394787085886086,
+      "PointsDif": 13.5,
+      "Rating": 68.1
+    },
+    {
+      "Team": "TB",
+      "Week": 2,
+      "NetEPA": -0.15358300739289255,
+      "NetWEPA": 0.07960615643301903,
+      "PointsDif": -5,
+      "Rating": 42.7
+    },
+    {
+      "Team": "TEN",
+      "Week": 2,
+      "NetEPA": -0.1262615652362303,
+      "NetWEPA": -0.1235321058287288,
+      "PointsDif": -8.5,
+      "Rating": 25.1
+    },
+    {
+      "Team": "WAS",
+      "Week": 2,
+      "NetEPA": -0.079016619664522,
+      "NetWEPA": 0.0624734109258166,
+      "PointsDif": -9.5,
+      "Rating": 35.6
+    },
+    {
+      "Team": "ARI",
+      "Week": 3,
+      "NetEPA": -0.1002060471100908,
+      "NetWEPA": 0.0442168873655205,
+      "PointsDif": -6,
+      "Rating": 34.5
+    },
+    {
+      "Team": "ATL",
+      "Week": 3,
+      "NetEPA": -0.10577805108487301,
+      "NetWEPA": -0.014942516771621311,
+      "PointsDif": -5.666666666666667,
+      "Rating": 38.9
+    },
+    {
+      "Team": "BAL",
+      "Week": 3,
+      "NetEPA": 0.15257701347194869,
+      "NetWEPA": 0.2967485235073622,
+      "PointsDif": 4.666666666666667,
+      "Rating": 67.1
+    },
+    {
+      "Team": "BUF",
+      "Week": 3,
+      "NetEPA": 0.136268567874919,
+      "NetWEPA": 0.29678937849413506,
+      "PointsDif": 7.666666666666667,
+      "Rating": 70
+    },
+    {
+      "Team": "CAR",
+      "Week": 3,
+      "NetEPA": 0.0556578843304765,
+      "NetWEPA": 0.1432203190236758,
+      "PointsDif": 2,
+      "Rating": 39.2
+    },
+    {
+      "Team": "CHI",
+      "Week": 3,
+      "NetEPA": 0.1730687825252803,
+      "NetWEPA": 0.18442053296356462,
+      "PointsDif": 12,
+      "Rating": 54.7
+    },
+    {
+      "Team": "CIN",
+      "Week": 3,
+      "NetEPA": 0.11084052512684,
+      "NetWEPA": 0.150077964870025,
+      "PointsDif": 5.666666666666667,
+      "Rating": 59.8
+    },
+    {
+      "Team": "CLE",
+      "Week": 3,
+      "NetEPA": -0.0444219859283397,
+      "NetWEPA": 0.04776124221086541,
+      "PointsDif": -5.666666666666667,
+      "Rating": 27.8
+    },
+    {
+      "Team": "DAL",
+      "Week": 3,
+      "NetEPA": 0.000903656473202008,
+      "NetWEPA": 0.2165514991708708,
+      "PointsDif": 2,
+      "Rating": 58
+    },
+    {
+      "Team": "DEN",
+      "Week": 3,
+      "NetEPA": -0.0860811003097262,
+      "NetWEPA": -0.08879190840352891,
+      "PointsDif": -3.3333333333333335,
+      "Rating": 59.2
+    },
+    {
+      "Team": "DET",
+      "Week": 3,
+      "NetEPA": -0.042294510743834,
+      "NetWEPA": 0.1511254987744439,
+      "PointsDif": -0.6666666666666666,
+      "Rating": 58.1
+    },
+    {
+      "Team": "GB",
+      "Week": 3,
+      "NetEPA": -0.1915944188890648,
+      "NetWEPA": 0.0516443626443061,
+      "PointsDif": -11.666666666666666,
+      "Rating": 52.5
+    },
+    {
+      "Team": "HOU",
+      "Week": 3,
+      "NetEPA": -0.09505014247226411,
+      "NetWEPA": 0.0194772308622608,
+      "PointsDif": -7,
+      "Rating": 58.5
+    },
+    {
+      "Team": "IND",
+      "Week": 3,
+      "NetEPA": -0.1598933949728303,
+      "NetWEPA": 0.014099461790571102,
+      "PointsDif": -6.333333333333333,
+      "Rating": 46.8
+    },
+    {
+      "Team": "JAX",
+      "Week": 3,
+      "NetEPA": 0.25517759445536903,
+      "NetWEPA": 0.2328049447226268,
+      "PointsDif": 15.333333333333334,
+      "Rating": 60
+    },
+    {
+      "Team": "KC",
+      "Week": 3,
+      "NetEPA": 0.2427520981884271,
+      "NetWEPA": 0.2234412349630265,
+      "PointsDif": 12.666666666666666,
+      "Rating": 64.7
+    },
+    {
+      "Team": "LV",
+      "Week": 3,
+      "NetEPA": 0.21915927101310412,
+      "NetWEPA": 0.237137668899703,
+      "PointsDif": 11.333333333333334,
+      "Rating": 39.9
+    },
+    {
+      "Team": "LAC",
+      "Week": 3,
+      "NetEPA": -0.17680077263071173,
+      "NetWEPA": -0.045944308115039,
+      "PointsDif": -10.666666666666666,
+      "Rating": 48.8
+    },
+    {
+      "Team": "LA",
+      "Week": 3,
+      "NetEPA": 0.053371573708766995,
+      "NetWEPA": 0.12399545216040904,
+      "PointsDif": -0.6666666666666666,
+      "Rating": 75.1
+    },
+    {
+      "Team": "MIA",
+      "Week": 3,
+      "NetEPA": -0.282114640099022,
+      "NetWEPA": -0.11650683022856709,
+      "PointsDif": -16.666666666666668,
+      "Rating": 22.3
+    },
+    {
+      "Team": "MIN",
+      "Week": 3,
+      "NetEPA": 0.10023496726211899,
+      "NetWEPA": 0.04069456429749509,
+      "PointsDif": 10,
+      "Rating": 52
+    },
+    {
+      "Team": "NE",
+      "Week": 3,
+      "NetEPA": -0.08061021090506221,
+      "NetWEPA": 0.0002958386975418989,
+      "PointsDif": -5,
+      "Rating": 54.3
+    },
+    {
+      "Team": "NO",
+      "Week": 3,
+      "NetEPA": -0.053264622267443495,
+      "NetWEPA": 0.1124377345519238,
+      "PointsDif": -0.6666666666666666,
+      "Rating": 44.2
+    },
+    {
+      "Team": "NYG",
+      "Week": 3,
+      "NetEPA": -0.1602318850775231,
+      "NetWEPA": -0.02552916460795853,
+      "PointsDif": -3,
+      "Rating": 33.9
+    },
+    {
+      "Team": "NYJ",
+      "Week": 3,
+      "NetEPA": 0.060421436277603005,
+      "NetWEPA": 0.15925386993520238,
+      "PointsDif": 1,
+      "Rating": 34.9
+    },
+    {
+      "Team": "PHI",
+      "Week": 3,
+      "NetEPA": -0.13935703295668941,
+      "NetWEPA": -0.0559394380842308,
+      "PointsDif": -4.666666666666667,
+      "Rating": 61.8
+    },
+    {
+      "Team": "PIT",
+      "Week": 3,
+      "NetEPA": -0.09045036790861871,
+      "NetWEPA": -0.066231204944292,
+      "PointsDif": -2.3333333333333335,
+      "Rating": 42.6
+    },
+    {
+      "Team": "SF",
+      "Week": 3,
+      "NetEPA": 0.3396015363587781,
+      "NetWEPA": 0.4623290692593633,
+      "PointsDif": 16,
+      "Rating": 66.2
+    },
+    {
+      "Team": "SEA",
+      "Week": 3,
+      "NetEPA": 0.1712117904643273,
+      "NetWEPA": 0.315664416528569,
+      "PointsDif": 8.333333333333334,
+      "Rating": 68.3
+    },
+    {
+      "Team": "TB",
+      "Week": 3,
+      "NetEPA": -0.107682847578512,
+      "NetWEPA": -0.015595386341756001,
+      "PointsDif": -5.666666666666667,
+      "Rating": 38.5
+    },
+    {
+      "Team": "TEN",
+      "Week": 3,
+      "NetEPA": -0.09192719263336402,
+      "NetWEPA": -0.1156354730894456,
+      "PointsDif": -7.333333333333333,
+      "Rating": 27.9
+    },
+    {
+      "Team": "WAS",
+      "Week": 3,
+      "NetEPA": -0.0435019481835906,
+      "NetWEPA": 0.07320067346512518,
+      "PointsDif": -5.666666666666667,
+      "Rating": 41.7
+    },
+    {
+      "Team": "ARI",
+      "Week": 4,
+      "NetEPA": -0.10386849550627529,
+      "NetWEPA": 0.012885058313840765,
+      "PointsDif": -7.5,
+      "Rating": 33.7
+    },
+    {
+      "Team": "ATL",
+      "Week": 4,
+      "NetEPA": 0.025615311493215703,
+      "NetWEPA": 0.0941895553662665,
+      "PointsDif": 1,
+      "Rating": 43.1
+    },
+    {
+      "Team": "BAL",
+      "Week": 4,
+      "NetEPA": 0.16449953542411988,
+      "NetWEPA": 0.3019684102573848,
+      "PointsDif": 5,
+      "Rating": 67.4
+    },
+    {
+      "Team": "BUF",
+      "Week": 4,
+      "NetEPA": 0.090340343537202,
+      "NetWEPA": 0.24723159531301908,
+      "PointsDif": 5,
+      "Rating": 69.8
+    },
+    {
+      "Team": "CAR",
+      "Week": 4,
+      "NetEPA": 0.0774464072202217,
+      "NetWEPA": 0.1945714418148935,
+      "PointsDif": 3,
+      "Rating": 39.300000000000004
+    },
+    {
+      "Team": "CHI",
+      "Week": 4,
+      "NetEPA": 0.1817023345093099,
+      "NetWEPA": 0.19297556210387065,
+      "PointsDif": 11.75,
+      "Rating": 58.199999999999996
+    },
+    {
+      "Team": "CIN",
+      "Week": 4,
+      "NetEPA": 0.0644761306535871,
+      "NetWEPA": 0.12172222149246549,
+      "PointsDif": 3,
+      "Rating": 58.3
+    },
+    {
+      "Team": "CLE",
+      "Week": 4,
+      "NetEPA": -0.0306991948407778,
+      "NetWEPA": 0.09751585858432921,
+      "PointsDif": -3.5,
+      "Rating": 33
+    },
+    {
+      "Team": "DAL",
+      "Week": 4,
+      "NetEPA": 0.005322037206263008,
+      "NetWEPA": 0.20215163343846543,
+      "PointsDif": 2.5,
+      "Rating": 59.5
+    },
+    {
+      "Team": "DEN",
+      "Week": 4,
+      "NetEPA": -0.08039658564983451,
+      "NetWEPA": -0.06418119432694996,
+      "PointsDif": -5,
+      "Rating": 59.5
+    },
+    {
+      "Team": "DET",
+      "Week": 4,
+      "NetEPA": -0.06472795977106802,
+      "NetWEPA": 0.1379396777072628,
+      "PointsDif": -2,
+      "Rating": 56.49999999999999
+    },
+    {
+      "Team": "GB",
+      "Week": 4,
+      "NetEPA": -0.13607430190662462,
+      "NetWEPA": 0.0933070659977539,
+      "PointsDif": -8,
+      "Rating": 49
+    },
+    {
+      "Team": "HOU",
+      "Week": 4,
+      "NetEPA": -0.0981439795099918,
+      "NetWEPA": 0.048265567194319264,
+      "PointsDif": -6.25,
+      "Rating": 58.099999999999994
+    },
+    {
+      "Team": "IND",
+      "Week": 4,
+      "NetEPA": -0.08689814247004729,
+      "NetWEPA": 0.0189829608385806,
+      "PointsDif": -0.5,
+      "Rating": 46.1
+    },
+    {
+      "Team": "JAX",
+      "Week": 4,
+      "NetEPA": 0.20522950630956838,
+      "NetWEPA": 0.2131539226567902,
+      "PointsDif": 12.75,
+      "Rating": 62.3
+    },
+    {
+      "Team": "KC",
+      "Week": 4,
+      "NetEPA": 0.1963034377493281,
+      "NetWEPA": 0.20433929709184842,
+      "PointsDif": 10.25,
+      "Rating": 65.3
+    },
+    {
+      "Team": "LV",
+      "Week": 4,
+      "NetEPA": 0.1520246674124749,
+      "NetWEPA": 0.1903356829399011,
+      "PointsDif": 7.75,
+      "Rating": 43.5
+    },
+    {
+      "Team": "LAC",
+      "Week": 4,
+      "NetEPA": -0.1254251619284918,
+      "NetWEPA": -0.0284198655061274,
+      "PointsDif": -9.75,
+      "Rating": 47.099999999999994
+    },
+    {
+      "Team": "LA",
+      "Week": 4,
+      "NetEPA": 0.11296518422817926,
+      "NetWEPA": 0.1521210995940084,
+      "PointsDif": 0.5,
+      "Rating": 73.6
+    },
+    {
+      "Team": "MIA",
+      "Week": 4,
+      "NetEPA": -0.2357233641820397,
+      "NetWEPA": -0.1163832018838088,
+      "PointsDif": -13.75,
+      "Rating": 23.400000000000002
+    },
+    {
+      "Team": "MIN",
+      "Week": 4,
+      "NetEPA": 0.1203824072665112,
+      "NetWEPA": 0.034423394939612495,
+      "PointsDif": 8.75,
+      "Rating": 51
+    },
+    {
+      "Team": "NE",
+      "Week": 4,
+      "NetEPA": -0.03668778063427762,
+      "NetWEPA": 0.08975161522013789,
+      "PointsDif": -3,
+      "Rating": 55.50000000000001
+    },
+    {
+      "Team": "NO",
+      "Week": 4,
+      "NetEPA": -0.1520932046942395,
+      "NetWEPA": 0.019681591662664005,
+      "PointsDif": -5.75,
+      "Rating": 41.099999999999994
+    },
+    {
+      "Team": "NYG",
+      "Week": 4,
+      "NetEPA": -0.0785631190200058,
+      "NetWEPA": 0.0032960610614446995,
+      "PointsDif": 0.75,
+      "Rating": 33.4
+    },
+    {
+      "Team": "NYJ",
+      "Week": 4,
+      "NetEPA": -0.006243181483725702,
+      "NetWEPA": 0.08917938888015474,
+      "PointsDif": -2,
+      "Rating": 31.2
+    },
+    {
+      "Team": "PHI",
+      "Week": 4,
+      "NetEPA": -0.1752952479507455,
+      "NetWEPA": -0.0805074310099816,
+      "PointsDif": -4.5,
+      "Rating": 56.8
+    },
+    {
+      "Team": "PIT",
+      "Week": 4,
+      "NetEPA": -0.06958522267393892,
+      "NetWEPA": -0.02599942148754759,
+      "PointsDif": -2.5,
+      "Rating": 42.3
+    },
+    {
+      "Team": "SF",
+      "Week": 4,
+      "NetEPA": 0.2706624280442193,
+      "NetWEPA": 0.40039475913930855,
+      "PointsDif": 14.5,
+      "Rating": 65.60000000000001
+    },
+    {
+      "Team": "SEA",
+      "Week": 4,
+      "NetEPA": 0.1220400764038372,
+      "NetWEPA": 0.233484716421816,
+      "PointsDif": 8,
+      "Rating": 69
+    },
+    {
+      "Team": "TB",
+      "Week": 4,
+      "NetEPA": -0.0926578101794292,
+      "NetWEPA": -0.020291493762516002,
+      "PointsDif": -5,
+      "Rating": 37.8
+    },
+    {
+      "Team": "TEN",
+      "Week": 4,
+      "NetEPA": -0.1174059546397757,
+      "NetWEPA": -0.10403124439170881,
+      "PointsDif": -7,
+      "Rating": 29.099999999999998
+    },
+    {
+      "Team": "WAS",
+      "Week": 4,
+      "NetEPA": -0.06145372793387491,
+      "NetWEPA": -0.00617867794412043,
+      "PointsDif": -8.5,
+      "Rating": 41.8
+    },
+    {
+      "Team": "ARI",
+      "Week": 5,
+      "NetEPA": -0.1462083782270798,
+      "NetWEPA": -0.0016076698548130007,
+      "PointsDif": -10.8,
+      "Rating": 32
+    },
+    {
+      "Team": "ATL",
+      "Week": 5,
+      "NetEPA": 0.007756521144694002,
+      "NetWEPA": 0.056525903718449205,
+      "PointsDif": -0.6,
+      "Rating": 45
+    },
+    {
+      "Team": "BAL",
+      "Week": 5,
+      "NetEPA": 0.1397149801552408,
+      "NetWEPA": 0.2654655426946891,
+      "PointsDif": 5.4,
+      "Rating": 67
+    },
+    {
+      "Team": "BUF",
+      "Week": 5,
+      "NetEPA": 0.06365635942493197,
+      "NetWEPA": 0.2705395915457641,
+      "PointsDif": 4.6,
+      "Rating": 68
+    },
+    {
+      "Team": "CAR",
+      "Week": 5,
+      "NetEPA": 0.0774464072202217,
+      "NetWEPA": 0.1945714418148935,
+      "PointsDif": 3,
+      "Rating": 45
+    },
+    {
+      "Team": "CHI",
+      "Week": 5,
+      "NetEPA": 0.037718912295488835,
+      "NetWEPA": 0.0951447162507183,
+      "PointsDif": 4.6,
+      "Rating": 60
+    },
+    {
+      "Team": "CIN",
+      "Week": 5,
+      "NetEPA": 0.0915412997513427,
+      "NetWEPA": 0.16057254397627618,
+      "PointsDif": 3.8,
+      "Rating": 57
+    },
+    {
+      "Team": "CLE",
+      "Week": 5,
+      "NetEPA": -0.047485021817554006,
+      "NetWEPA": 0.0363679351361275,
+      "PointsDif": -3.8,
+      "Rating": 32
+    },
+    {
+      "Team": "DAL",
+      "Week": 5,
+      "NetEPA": -0.023682834549158982,
+      "NetWEPA": 0.15054082026680393,
+      "PointsDif": 0.4,
+      "Rating": 58
+    },
+    {
+      "Team": "DEN",
+      "Week": 5,
+      "NetEPA": -0.030044474221986098,
+      "NetWEPA": -0.01951880298007575,
+      "PointsDif": -2.8,
+      "Rating": 56
+    },
+    {
+      "Team": "DET",
+      "Week": 5,
+      "NetEPA": 0.006463322932777016,
+      "NetWEPA": 0.18626990116561748,
+      "PointsDif": 3.2,
+      "Rating": 57
+    },
+    {
+      "Team": "GB",
+      "Week": 5,
+      "NetEPA": -0.0015467895212501002,
+      "NetWEPA": 0.1564658396146126,
+      "PointsDif": -1.6,
+      "Rating": 50
+    },
+    {
+      "Team": "HOU",
+      "Week": 5,
+      "NetEPA": 0.016180867661905858,
+      "NetWEPA": 0.1031590747882182,
+      "PointsDif": -0.4,
+      "Rating": 59
+    },
+    {
+      "Team": "IND",
+      "Week": 5,
+      "NetEPA": -0.1053255703266567,
+      "NetWEPA": -0.0297171549580559,
+      "PointsDif": -2.8,
+      "Rating": 43
+    },
+    {
+      "Team": "JAX",
+      "Week": 5,
+      "NetEPA": 0.1816427902465671,
+      "NetWEPA": 0.21156441875202747,
+      "PointsDif": 10.6,
+      "Rating": 62
+    },
+    {
+      "Team": "KC",
+      "Week": 5,
+      "NetEPA": 0.1963034377493281,
+      "NetWEPA": 0.20433929709184842,
+      "PointsDif": 10.25,
+      "Rating": 67
+    },
+    {
+      "Team": "LV",
+      "Week": 5,
+      "NetEPA": 0.0332138342192668,
+      "NetWEPA": 0.1234715490648799,
+      "PointsDif": 0.6,
+      "Rating": 43
+    },
+    {
+      "Team": "LAC",
+      "Week": 5,
+      "NetEPA": -0.13863778435622412,
+      "NetWEPA": -0.0450042568711424,
+      "PointsDif": -9,
+      "Rating": 49
+    },
+    {
+      "Team": "LA",
+      "Week": 5,
+      "NetEPA": 0.1015912133710054,
+      "NetWEPA": 0.17263069048294288,
+      "PointsDif": -0.2,
+      "Rating": 75
+    },
+    {
+      "Team": "MIA",
+      "Week": 5,
+      "NetEPA": -0.227232550292094,
+      "NetWEPA": -0.1113187268172289,
+      "PointsDif": -12.4,
+      "Rating": 21
+    },
+    {
+      "Team": "MIN",
+      "Week": 5,
+      "NetEPA": 0.13116859183163898,
+      "NetWEPA": 0.0983014152035632,
+      "PointsDif": 9,
+      "Rating": 52
+    },
+    {
+      "Team": "NE",
+      "Week": 5,
+      "NetEPA": 0.0574822606281019,
+      "NetWEPA": 0.18720918637838826,
+      "PointsDif": 3.2,
+      "Rating": 57
+    },
+    {
+      "Team": "NO",
+      "Week": 5,
+      "NetEPA": -0.1357805498629541,
+      "NetWEPA": -0.0021629740416337986,
+      "PointsDif": -6.6,
+      "Rating": 42
+    },
+    {
+      "Team": "NYG",
+      "Week": 5,
+      "NetEPA": -0.05205191795194157,
+      "NetWEPA": 0.0523886976182986,
+      "PointsDif": 0.6,
+      "Rating": 35
+    },
+    {
+      "Team": "NYJ",
+      "Week": 5,
+      "NetEPA": 0.009940098376913498,
+      "NetWEPA": 0.08779928777381579,
+      "PointsDif": -0.6,
+      "Rating": 31
+    },
+    {
+      "Team": "PHI",
+      "Week": 5,
+      "NetEPA": -0.16234725941455241,
+      "NetWEPA": -0.049070206363138816,
+      "PointsDif": -4,
+      "Rating": 52
+    },
+    {
+      "Team": "PIT",
+      "Week": 5,
+      "NetEPA": -0.021299715359858612,
+      "NetWEPA": 0.0025166714288766025,
+      "PointsDif": 0.4,
+      "Rating": 43
+    },
+    {
+      "Team": "SF",
+      "Week": 5,
+      "NetEPA": 0.2607056416630077,
+      "NetWEPA": 0.3597348964345516,
+      "PointsDif": 12.2,
+      "Rating": 68
+    },
+    {
+      "Team": "SEA",
+      "Week": 5,
+      "NetEPA": 0.04694886863914449,
+      "NetWEPA": 0.1589128574663082,
+      "PointsDif": 5.8,
+      "Rating": 70
+    },
+    {
+      "Team": "TB",
+      "Week": 5,
+      "NetEPA": -0.036557632851253304,
+      "NetWEPA": 0.0184550005983594,
+      "PointsDif": -2.4,
+      "Rating": 42
+    },
+    {
+      "Team": "TEN",
+      "Week": 5,
+      "NetEPA": -0.1970365379656407,
+      "NetWEPA": -0.14641334748529752,
+      "PointsDif": -10.2,
+      "Rating": 26
+    },
+    {
+      "Team": "WAS",
+      "Week": 5,
+      "NetEPA": -0.05861308836172345,
+      "NetWEPA": 0.026083320981250088,
+      "PointsDif": -6.8,
+      "Rating": 41
+    },
+    {
+      "Team": "ARI",
+      "Week": 6,
+      "NetEPA": -0.1104632807320634,
+      "NetWEPA": 0.00503227080042762,
+      "PointsDif": -8.666666666666666,
+      "Rating": 31.2525157878916
+    },
+    {
+      "Team": "ATL",
+      "Week": 6,
+      "NetEPA": -0.034834590679330105,
+      "NetWEPA": 0.015498587117623648,
+      "PointsDif": -1.8333333333333333,
+      "Rating": 46.2941888484257
+    },
+    {
+      "Team": "BAL",
+      "Week": 6,
+      "NetEPA": 0.1248518387712267,
+      "NetWEPA": 0.2497755470457667,
+      "PointsDif": 4,
+      "Rating": 63.7577852463516
+    },
+    {
+      "Team": "BUF",
+      "Week": 6,
+      "NetEPA": 0.06222192981995697,
+      "NetWEPA": 0.2696132461896683,
+      "PointsDif": 4.333333333333333,
+      "Rating": 69.0347674005946
+    },
+    {
+      "Team": "CAR",
+      "Week": 6,
+      "NetEPA": 0.1105636805857471,
+      "NetWEPA": 0.19742255691635058,
+      "PointsDif": 4.6,
+      "Rating": 43.2093314836851
+    },
+    {
+      "Team": "CHI",
+      "Week": 6,
+      "NetEPA": 0.0782361746267699,
+      "NetWEPA": 0.11536783280688717,
+      "PointsDif": 5.166666666666667,
+      "Rating": 63.9976387997937
+    },
+    {
+      "Team": "CIN",
+      "Week": 6,
+      "NetEPA": 0.0915412997513427,
+      "NetWEPA": 0.16057254397627618,
+      "PointsDif": 3.8,
+      "Rating": 63.1750320261243
+    },
+    {
+      "Team": "CLE",
+      "Week": 6,
+      "NetEPA": -0.04637487862997121,
+      "NetWEPA": 0.026159502052228473,
+      "PointsDif": -2.6666666666666665,
+      "Rating": 36.5347387290209
+    },
+    {
+      "Team": "DAL",
+      "Week": 6,
+      "NetEPA": -0.045445522863083995,
+      "NetWEPA": 0.11545272608888611,
+      "PointsDif": -1.3333333333333333,
+      "Rating": 55.8607000275752
+    },
+    {
+      "Team": "DEN",
+      "Week": 6,
+      "NetEPA": -0.024622479169235892,
+      "NetWEPA": -0.0255811156506519,
+      "PointsDif": -1.8333333333333333,
+      "Rating": 58.5483870636384
+    },
+    {
+      "Team": "DET",
+      "Week": 6,
+      "NetEPA": 0.006463322932777016,
+      "NetWEPA": 0.18626990116561748,
+      "PointsDif": 3.2,
+      "Rating": 60.3828701090303
+    },
+    {
+      "Team": "GB",
+      "Week": 6,
+      "NetEPA": 0.02333256405623834,
+      "NetWEPA": 0.14474767314564602,
+      "PointsDif": 0.3333333333333333,
+      "Rating": 56.3755690999272
+    },
+    {
+      "Team": "HOU",
+      "Week": 6,
+      "NetEPA": 0.0289049512990872,
+      "NetWEPA": 0.13329156106679352,
+      "PointsDif": 0.16666666666666666,
+      "Rating": 56.7972171444175
+    },
+    {
+      "Team": "IND",
+      "Week": 6,
+      "NetEPA": -0.09867966719389029,
+      "NetWEPA": -0.0147132118471381,
+      "PointsDif": -3.3333333333333335,
+      "Rating": 30.2197238618461
+    },
+    {
+      "Team": "JAX",
+      "Week": 6,
+      "NetEPA": 0.1332611238307846,
+      "NetWEPA": 0.1877842513554808,
+      "PointsDif": 8.333333333333334,
+      "Rating": 63.013248569962
+    },
+    {
+      "Team": "KC",
+      "Week": 6,
+      "NetEPA": 0.23045456498558908,
+      "NetWEPA": 0.2139972620661644,
+      "PointsDif": 11.4,
+      "Rating": 67.133142812927
+    },
+    {
+      "Team": "LV",
+      "Week": 6,
+      "NetEPA": 0.0180855637433005,
+      "NetWEPA": 0.11021017165470486,
+      "PointsDif": 0,
+      "Rating": 40.3522712949838
+    },
+    {
+      "Team": "LAC",
+      "Week": 6,
+      "NetEPA": -0.1744939964356198,
+      "NetWEPA": -0.0943363440539684,
+      "PointsDif": -10.166666666666666,
+      "Rating": 43.6505402850651
+    },
+    {
+      "Team": "LA",
+      "Week": 6,
+      "NetEPA": 0.0761097795412473,
+      "NetWEPA": 0.14017465391250894,
+      "PointsDif": -0.5,
+      "Rating": 71.5014386810925
+    },
+    {
+      "Team": "MIA",
+      "Week": 6,
+      "NetEPA": -0.227232550292094,
+      "NetWEPA": -0.1113187268172289,
+      "PointsDif": -12.4,
+      "Rating": 21.6706843144135
+    },
+    {
+      "Team": "MIN",
+      "Week": 6,
+      "NetEPA": 0.13116859183163898,
+      "NetWEPA": 0.0983014152035632,
+      "PointsDif": 9,
+      "Rating": 54.6788485035111
+    },
+    {
+      "Team": "NE",
+      "Week": 6,
+      "NetEPA": 0.053507323220221704,
+      "NetWEPA": 0.2036640893627582,
+      "PointsDif": 3.8333333333333335,
+      "Rating": 59.7029267824308
+    },
+    {
+      "Team": "NO",
+      "Week": 6,
+      "NetEPA": -0.11998678610166211,
+      "NetWEPA": 0.0034835291087511044,
+      "PointsDif": -4.333333333333333,
+      "Rating": 38.4873819887078
+    },
+    {
+      "Team": "NYG",
+      "Week": 6,
+      "NetEPA": -0.03296414019591003,
+      "NetWEPA": 0.0559141005549602,
+      "PointsDif": -0.6666666666666666,
+      "Rating": 38.3518514542825
+    },
+    {
+      "Team": "NYJ",
+      "Week": 6,
+      "NetEPA": 0.0025941512009428,
+      "NetWEPA": 0.0868035788814327,
+      "PointsDif": -1.6666666666666667,
+      "Rating": 33.6618953971111
+    },
+    {
+      "Team": "PHI",
+      "Week": 6,
+      "NetEPA": -0.1780362717604455,
+      "NetWEPA": -0.08125556219658861,
+      "PointsDif": -5.166666666666667,
+      "Rating": 34.0324034793558
+    },
+    {
+      "Team": "PIT",
+      "Week": 6,
+      "NetEPA": 0.006023871968741601,
+      "NetWEPA": -0.0024580174579562006,
+      "PointsDif": 1.5,
+      "Rating": 46.2139255907832
+    },
+    {
+      "Team": "SF",
+      "Week": 6,
+      "NetEPA": 0.2434690215791619,
+      "NetWEPA": 0.33849607215757327,
+      "PointsDif": 11.166666666666666,
+      "Rating": 70.2007427280805
+    },
+    {
+      "Team": "SEA",
+      "Week": 6,
+      "NetEPA": 0.039325488241186396,
+      "NetWEPA": 0.1204929144215712,
+      "PointsDif": 4.333333333333333,
+      "Rating": 71.0289899092542
+    },
+    {
+      "Team": "TB",
+      "Week": 6,
+      "NetEPA": -0.04916449174593589,
+      "NetWEPA": -0.019013859897211306,
+      "PointsDif": -3.1666666666666665,
+      "Rating": 46.1777872298161
+    },
+    {
+      "Team": "TEN",
+      "Week": 6,
+      "NetEPA": -0.1586519720444446,
+      "NetWEPA": -0.12160282705891871,
+      "PointsDif": -7.5,
+      "Rating": 25.4440065751741
+    },
+    {
+      "Team": "WAS",
+      "Week": 6,
+      "NetEPA": -0.07421607682739911,
+      "NetWEPA": 0.0053691695498208,
+      "PointsDif": -6.666666666666667,
+      "Rating": 42.0417633285031
+    },
+    {
+      "Team": "ARI",
+      "Week": 7,
+      "NetEPA": -0.1288090047440814,
+      "NetWEPA": -0.0296639346642448,
+      "PointsDif": -9.428571428571429,
+      "Rating": 30.6624796243037
+    },
+    {
+      "Team": "ATL",
+      "Week": 7,
+      "NetEPA": -0.0156017979865763,
+      "NetWEPA": 0.02225847535840263,
+      "PointsDif": -0.2857142857142857,
+      "Rating": 47.3058708675563
+    },
+    {
+      "Team": "BAL",
+      "Week": 7,
+      "NetEPA": 0.05189787857469869,
+      "NetWEPA": 0.19883436595784543,
+      "PointsDif": 0.2857142857142857,
+      "Rating": 64.5808694943621
+    },
+    {
+      "Team": "BUF",
+      "Week": 7,
+      "NetEPA": 0.06222192981995697,
+      "NetWEPA": 0.2696132461896683,
+      "PointsDif": 4.333333333333333,
+      "Rating": 68.8594353708861
+    },
+    {
+      "Team": "CAR",
+      "Week": 7,
+      "NetEPA": 0.024163382610671698,
+      "NetWEPA": 0.1311227928574411,
+      "PointsDif": -1.1666666666666667,
+      "Rating": 43.5115737609991
+    },
+    {
+      "Team": "CHI",
+      "Week": 7,
+      "NetEPA": 0.0700702776231292,
+      "NetWEPA": 0.1325509788663276,
+      "PointsDif": 5.285714285714286,
+      "Rating": 65.0483050119896
+    },
+    {
+      "Team": "CIN",
+      "Week": 7,
+      "NetEPA": 0.1418891866068727,
+      "NetWEPA": 0.2275120640909971,
+      "PointsDif": 6.833333333333333,
+      "Rating": 62.8126635938143
+    },
+    {
+      "Team": "CLE",
+      "Week": 7,
+      "NetEPA": -0.0023079521796173993,
+      "NetWEPA": 0.0757619330171286,
+      "PointsDif": -1.8571428571428572,
+      "Rating": 37.6148370057395
+    },
+    {
+      "Team": "DAL",
+      "Week": 7,
+      "NetEPA": 0.0023681970283309928,
+      "NetWEPA": 0.1363077096895483,
+      "PointsDif": 1.2857142857142858,
+      "Rating": 55.5518228902252
+    },
+    {
+      "Team": "DEN",
+      "Week": 7,
+      "NetEPA": 0.0120496497292365,
+      "NetWEPA": 0.01614499998810764,
+      "PointsDif": 0.42857142857142855,
+      "Rating": 58.9112394280082
+    },
+    {
+      "Team": "DET",
+      "Week": 7,
+      "NetEPA": -0.004959810680573995,
+      "NetWEPA": 0.20213525515541889,
+      "PointsDif": 3.1666666666666665,
+      "Rating": 60.3339430170973
+    },
+    {
+      "Team": "GB",
+      "Week": 7,
+      "NetEPA": 0.028164569581636698,
+      "NetWEPA": 0.1287583070232526,
+      "PointsDif": -0.14285714285714285,
+      "Rating": 56.5536727806094
+    },
+    {
+      "Team": "HOU",
+      "Week": 7,
+      "NetEPA": -0.018124023430535,
+      "NetWEPA": 0.06854766712632349,
+      "PointsDif": -0.7142857142857143,
+      "Rating": 56.9724215295048
+    },
+    {
+      "Team": "IND",
+      "Week": 7,
+      "NetEPA": -0.0956211282115621,
+      "NetWEPA": -0.01727346680018791,
+      "PointsDif": -3.7142857142857144,
+      "Rating": 29.9331552929722
+    },
+    {
+      "Team": "JAX",
+      "Week": 7,
+      "NetEPA": 0.1332611238307846,
+      "NetWEPA": 0.1877842513554808,
+      "PointsDif": 8.333333333333334,
+      "Rating": 62.9332981002374
+    },
+    {
+      "Team": "KC",
+      "Week": 7,
+      "NetEPA": 0.1497972018129718,
+      "NetWEPA": 0.15991253947630701,
+      "PointsDif": 6.666666666666667,
+      "Rating": 66.4917967878139
+    },
+    {
+      "Team": "LV",
+      "Week": 7,
+      "NetEPA": -0.021598689345905205,
+      "NetWEPA": 0.059046057957379,
+      "PointsDif": -2,
+      "Rating": 40.2911730681733
+    },
+    {
+      "Team": "LAC",
+      "Week": 7,
+      "NetEPA": -0.1744939964356198,
+      "NetWEPA": -0.0943363440539684,
+      "PointsDif": -10.166666666666666,
+      "Rating": 43.6042362869892
+    },
+    {
+      "Team": "LA",
+      "Week": 7,
+      "NetEPA": 0.1013527387902261,
+      "NetWEPA": 0.1690808864173328,
+      "PointsDif": 1.5714285714285714,
+      "Rating": 71.5967658367016
+    },
+    {
+      "Team": "MIA",
+      "Week": 7,
+      "NetEPA": -0.1765734610304539,
+      "NetWEPA": -0.0293223878336803,
+      "PointsDif": -9.833333333333334,
+      "Rating": 22.3636986308958
+    },
+    {
+      "Team": "MIN",
+      "Week": 7,
+      "NetEPA": 0.12172330111528401,
+      "NetWEPA": 0.09806129071413669,
+      "PointsDif": 8.5,
+      "Rating": 52.4761103507259
+    },
+    {
+      "Team": "NE",
+      "Week": 7,
+      "NetEPA": 0.0350473993692254,
+      "NetWEPA": 0.20082781288285328,
+      "PointsDif": 2.4285714285714284,
+      "Rating": 59.2807340502658
+    },
+    {
+      "Team": "NO",
+      "Week": 7,
+      "NetEPA": -0.11150716533461799,
+      "NetWEPA": 0.011748151930032397,
+      "PointsDif": -4.571428571428571,
+      "Rating": 38.205657577057
+    },
+    {
+      "Team": "NYG",
+      "Week": 7,
+      "NetEPA": 0.014154355566795302,
+      "NetWEPA": 0.09386119328170603,
+      "PointsDif": 0.2857142857142857,
+      "Rating": 39.1382657330143
+    },
+    {
+      "Team": "NYJ",
+      "Week": 7,
+      "NetEPA": -0.004210669945755698,
+      "NetWEPA": 0.08935380956251003,
+      "PointsDif": -1.8571428571428572,
+      "Rating": 33.6517472312336
+    },
+    {
+      "Team": "PHI",
+      "Week": 7,
+      "NetEPA": -0.1905010516775021,
+      "NetWEPA": -0.0898403641197536,
+      "PointsDif": -6.857142857142857,
+      "Rating": 33.3038488490702
+    },
+    {
+      "Team": "PIT",
+      "Week": 7,
+      "NetEPA": 0.011785132281323503,
+      "NetWEPA": 0.02613001276935872,
+      "PointsDif": 2.142857142857143,
+      "Rating": 46.6462100978338
+    },
+    {
+      "Team": "SF",
+      "Week": 7,
+      "NetEPA": 0.1940231908133719,
+      "NetWEPA": 0.31250030415204366,
+      "PointsDif": 8.285714285714286,
+      "Rating": 70.2348734903426
+    },
+    {
+      "Team": "SEA",
+      "Week": 7,
+      "NetEPA": 0.07609461179168461,
+      "NetWEPA": 0.1371238893401282,
+      "PointsDif": 6.142857142857143,
+      "Rating": 71.6106391639592
+    },
+    {
+      "Team": "TB",
+      "Week": 7,
+      "NetEPA": 0.024122512357271808,
+      "NetWEPA": 0.0291301703492457,
+      "PointsDif": 1.5714285714285714,
+      "Rating": 46.8359683179572
+    },
+    {
+      "Team": "TEN",
+      "Week": 7,
+      "NetEPA": -0.1691318207773897,
+      "NetWEPA": -0.1279369776341764,
+      "PointsDif": -6.857142857142857,
+      "Rating": 23.6494528864801
+    },
+    {
+      "Team": "WAS",
+      "Week": 7,
+      "NetEPA": -0.07421607682739911,
+      "NetWEPA": 0.0053691695498208,
+      "PointsDif": -6.666666666666667,
+      "Rating": 42.0887559554367
+    },
+    {
+      "Team": "ARI",
+      "Week": 8,
+      "NetEPA": -0.09402119309556932,
+      "NetWEPA": 0.00592699535279787,
+      "PointsDif": -7.875,
+      "Rating": 33.6583672709621
+    },
+    {
+      "Team": "ATL",
+      "Week": 8,
+      "NetEPA": -0.0494283605730802,
+      "NetWEPA": -0.016468054178270304,
+      "PointsDif": -2.25,
+      "Rating": 45.9322788117618
+    },
+    {
+      "Team": "BAL",
+      "Week": 8,
+      "NetEPA": 0.0002939966244113988,
+      "NetWEPA": 0.1425374983254226,
+      "PointsDif": -3,
+      "Rating": 33.9939891844334
+    },
+    {
+      "Team": "BUF",
+      "Week": 8,
+      "NetEPA": 0.089556402362824,
+      "NetWEPA": 0.25205981337767713,
+      "PointsDif": 7.428571428571429,
+      "Rating": 68.9524301735332
+    },
+    {
+      "Team": "CAR",
+      "Week": 8,
+      "NetEPA": -0.011800440976912602,
+      "NetWEPA": 0.08813168951751325,
+      "PointsDif": -2.142857142857143,
+      "Rating": 42.8543038474599
+    },
+    {
+      "Team": "CHI",
+      "Week": 8,
+      "NetEPA": 0.0982431864800601,
+      "NetWEPA": 0.1547861710972304,
+      "PointsDif": 6.75,
+      "Rating": 69.9748241749971
+    },
+    {
+      "Team": "CIN",
+      "Week": 8,
+      "NetEPA": 0.1240806203018502,
+      "NetWEPA": 0.24109740986819111,
+      "PointsDif": 6.857142857142857,
+      "Rating": 59.3813696822438
+    },
+    {
+      "Team": "CLE",
+      "Week": 8,
+      "NetEPA": -0.0489775530076669,
+      "NetWEPA": 0.02256991292175542,
+      "PointsDif": -4.25,
+      "Rating": 35.2842735257723
+    },
+    {
+      "Team": "DAL",
+      "Week": 8,
+      "NetEPA": -0.013454504183995991,
+      "NetWEPA": 0.1176953560797387,
+      "PointsDif": 0.75,
+      "Rating": 54.6712896902805
+    },
+    {
+      "Team": "DEN",
+      "Week": 8,
+      "NetEPA": 0.0077602714390110974,
+      "NetWEPA": 0.03448695044177066,
+      "PointsDif": 0.875,
+      "Rating": 59.4510635492873
+    },
+    {
+      "Team": "DET",
+      "Week": 8,
+      "NetEPA": -0.0038496240104110013,
+      "NetWEPA": 0.1822012088250841,
+      "PointsDif": 3.2857142857142856,
+      "Rating": 61.5889788075223
+    },
+    {
+      "Team": "GB",
+      "Week": 8,
+      "NetEPA": 0.05352893909840281,
+      "NetWEPA": 0.1490315164258057,
+      "PointsDif": 0.875,
+      "Rating": 58.003792646547
+    },
+    {
+      "Team": "HOU",
+      "Week": 8,
+      "NetEPA": -0.0181240234305351,
+      "NetWEPA": 0.06854766712632349,
+      "PointsDif": -0.7142857142857143,
+      "Rating": 57.8563850401812
+    },
+    {
+      "Team": "IND",
+      "Week": 8,
+      "NetEPA": -0.1592495645380749,
+      "NetWEPA": -0.0691616665815405,
+      "PointsDif": -7.625,
+      "Rating": 26.7618048583618
+    },
+    {
+      "Team": "JAX",
+      "Week": 8,
+      "NetEPA": 0.2047866492462448,
+      "NetWEPA": 0.2248224111137774,
+      "PointsDif": 12.142857142857142,
+      "Rating": 67.7431366562514
+    },
+    {
+      "Team": "KC",
+      "Week": 8,
+      "NetEPA": 0.1362329781513389,
+      "NetWEPA": 0.16000077025627768,
+      "PointsDif": 5.142857142857143,
+      "Rating": 66.5079655864124
+    },
+    {
+      "Team": "LV",
+      "Week": 8,
+      "NetEPA": -0.01770063149399599,
+      "NetWEPA": 0.0836110647135471,
+      "PointsDif": -1.125,
+      "Rating": 43.1048071747171
+    },
+    {
+      "Team": "LAC",
+      "Week": 8,
+      "NetEPA": -0.19248986159522768,
+      "NetWEPA": -0.1244599894862463,
+      "PointsDif": -10.857142857142858,
+      "Rating": 41.5268932278266
+    },
+    {
+      "Team": "LA",
+      "Week": 8,
+      "NetEPA": 0.1281973291827309,
+      "NetWEPA": 0.1850221411749069,
+      "PointsDif": 3.25,
+      "Rating": 72.5028986736196
+    },
+    {
+      "Team": "MIA",
+      "Week": 8,
+      "NetEPA": -0.16989062335254548,
+      "NetWEPA": -0.035705740864182885,
+      "PointsDif": -9.142857142857142,
+      "Rating": 25.0699785385665
+    },
+    {
+      "Team": "MIN",
+      "Week": 8,
+      "NetEPA": 0.0904712526790409,
+      "NetWEPA": 0.076556679628021,
+      "PointsDif": 6.714285714285714,
+      "Rating": 50.6196804950282
+    },
+    {
+      "Team": "NE",
+      "Week": 8,
+      "NetEPA": 0.0465689654335812,
+      "NetWEPA": 0.2154228487318828,
+      "PointsDif": 2.75,
+      "Rating": 60.2391320921692
+    },
+    {
+      "Team": "NO",
+      "Week": 8,
+      "NetEPA": -0.11150716533461799,
+      "NetWEPA": 0.011748151930032397,
+      "PointsDif": -4.571428571428571,
+      "Rating": 40.0830334642937
+    },
+    {
+      "Team": "NYG",
+      "Week": 8,
+      "NetEPA": 0.014154355566795302,
+      "NetWEPA": 0.09386119328170603,
+      "PointsDif": 0.2857142857142857,
+      "Rating": 44.5455462098614
+    },
+    {
+      "Team": "NYJ",
+      "Week": 8,
+      "NetEPA": -0.0026340722822545057,
+      "NetWEPA": 0.10736016229928999,
+      "PointsDif": -2.25,
+      "Rating": 34.3674291433433
+    },
+    {
+      "Team": "PHI",
+      "Week": 8,
+      "NetEPA": -0.1898114869496555,
+      "NetWEPA": -0.0896303321508913,
+      "PointsDif": -8.125,
+      "Rating": 32.8965086961842
+    },
+    {
+      "Team": "PIT",
+      "Week": 8,
+      "NetEPA": 0.0572870436436887,
+      "NetWEPA": 0.050185063664905855,
+      "PointsDif": 4.5,
+      "Rating": 49.5445453165774
+    },
+    {
+      "Team": "SF",
+      "Week": 8,
+      "NetEPA": 0.1940231908133719,
+      "NetWEPA": 0.31250030415204366,
+      "PointsDif": 8.285714285714286,
+      "Rating": 71.5483034394472
+    },
+    {
+      "Team": "SEA",
+      "Week": 8,
+      "NetEPA": 0.0268119148637345,
+      "NetWEPA": 0.0793301824987088,
+      "PointsDif": 3.25,
+      "Rating": 70.2791629465938
+    },
+    {
+      "Team": "TB",
+      "Week": 8,
+      "NetEPA": 0.057020485703831086,
+      "NetWEPA": 0.045925365439203,
+      "PointsDif": 3.375,
+      "Rating": 50.5151818902167
+    },
+    {
+      "Team": "TEN",
+      "Week": 8,
+      "NetEPA": -0.1440419914233712,
+      "NetWEPA": -0.056928580000441,
+      "PointsDif": -6.875,
+      "Rating": 28.0914317949056
+    },
+    {
+      "Team": "WAS",
+      "Week": 8,
+      "NetEPA": -0.03858414819653587,
+      "NetWEPA": 0.032239110469413676,
+      "PointsDif": -3.2857142857142856,
+      "Rating": 42.8762493184081
+    }
+  ]
+}
