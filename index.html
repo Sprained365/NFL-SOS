@@ -141,7 +141,7 @@
                 <th class="py-2.5 px-3 text-right">Opp. Metric</th>
               </tr>
             </thead>
-            <tbody id="scheduleRows" class="divide-y divide-slate-800/60 text-xs sm:text-sm"></tbody>
+            <tbody id="scheduleRows" class="divide-y border-slate-800/60 text-xs sm:text-sm"></tbody>
           </table>
         </div>
       </section>
@@ -220,7 +220,7 @@
             <h2 class="text-sm font-bold uppercase tracking-wider text-slate-200">1. Win Percentage</h2>
             <p id="compChart1Subtitle" class="text-[11px] text-slate-400">After Week --</p>
           </div>
-          <span class="text-xs text-slate-300 font-mono"><span class="w-3 inline-block border-t-2 border-dashed border-slate-300 mr-1"></span> Avg .500</span>
+          <span class="text-xs text-slate-300 font-medium"><span class="w-3 inline-block border-t-2 border-dashed border-slate-300 mr-1.5"></span>NFL Avg</span>
         </div>
         <div class="relative h-[160px] w-full">
           <canvas id="compChart1"></canvas>
@@ -234,7 +234,7 @@
             <h2 id="compChart2Title" class="text-sm font-bold uppercase tracking-wider text-slate-200">2. Team Strength</h2>
             <p id="compChart2Subtitle" class="text-[11px] text-slate-400">After Week --</p>
           </div>
-          <span id="compChart2AvgBadge" class="text-xs text-slate-300 font-mono"></span>
+          <span class="text-xs text-slate-300 font-medium"><span class="w-3 inline-block border-t-2 border-dashed border-slate-300 mr-1.5"></span>NFL Avg</span>
         </div>
         <div class="relative h-[160px] w-full">
           <canvas id="compChart2"></canvas>
@@ -248,7 +248,7 @@
             <h2 class="text-sm font-bold uppercase tracking-wider text-slate-200">3. SoS Played Games</h2>
             <p id="compChart3Subtitle" class="text-[11px] text-slate-400">After Week --</p>
           </div>
-          <span id="compChart3AvgBadge" class="text-xs text-slate-300 font-mono"></span>
+          <span class="text-xs text-slate-300 font-medium"><span class="w-3 inline-block border-t-2 border-dashed border-slate-300 mr-1.5"></span>NFL Avg</span>
         </div>
         <div class="relative h-[160px] w-full">
           <canvas id="compChart3"></canvas>
@@ -262,7 +262,7 @@
             <h2 class="text-sm font-bold uppercase tracking-wider text-slate-200">4. SoS Remaining Games</h2>
             <p id="compChart4Subtitle" class="text-[11px] text-slate-400">After Week --</p>
           </div>
-          <span id="compChart4AvgBadge" class="text-xs text-slate-300 font-mono"></span>
+          <span class="text-xs text-slate-300 font-medium"><span class="w-3 inline-block border-t-2 border-dashed border-slate-300 mr-1.5"></span>NFL Avg</span>
         </div>
         <div class="relative h-[160px] w-full">
           <canvas id="compChart4"></canvas>
@@ -276,7 +276,7 @@
             <h2 class="text-sm font-bold uppercase tracking-wider text-slate-200">5. SoS Full Season</h2>
             <p class="text-[11px] text-slate-400">Total 17-game schedule difficulty</p>
           </div>
-          <span id="compChart5AvgBadge" class="text-xs text-slate-300 font-mono"></span>
+          <span class="text-xs text-slate-300 font-medium"><span class="w-3 inline-block border-t-2 border-dashed border-slate-300 mr-1.5"></span>NFL Avg</span>
         </div>
         <div class="relative h-[160px] w-full">
           <canvas id="compChart5"></canvas>
@@ -825,6 +825,13 @@
     function renderCompareView() {
       if (!rawData || !rawData.info || !rawData.schedule || !rawData.metrics) return;
 
+      // =========================================================================
+      // SCALE UNIFICATION SWITCH:
+      // - false (Default): Charts 3, 4, 5 share one aligned SoS scale; Chart 2 scales independently.
+      // - true: Charts 2, 3, 4, and 5 ALL share the exact same horizontal scale.
+      // =========================================================================
+      const UNIFY_CHART_2_WITH_SOS = true;
+
       const cutoffWeek = parseInt(document.getElementById('compWeekSelect').value) || 1;
       const selectedMetric = document.getElementById('compMetricSelect').value;
 
@@ -845,8 +852,7 @@
         metricMap.set(`${m.Team}_${m.Week}`, m);
       });
 
-      // Calculate League Averages for:
-      // 1) Selected Metric at cutoff week
+      // Calculate Theoretical / Empirical League Average for Selected Metric at cutoff week
       let leagueAvgMetric = 0;
       if (selectedMetric === 'PointsDif') {
         leagueAvgMetric = 0;
@@ -905,6 +911,7 @@
         const calcWinPct = totalPlayed > 0 ? ((wins + (0.5 * ties)) / totalPlayed) : 0;
         const recordStr = ties > 0 ? `(${wins}-${losses}-${ties})` : `(${wins}-${losses})`;
 
+        // Team's own metric strength
         const ownMetricObj = metricMap.get(`${code}_${cutoffWeek}`);
         const ownStrength = (ownMetricObj && ownMetricObj[selectedMetric] != null) ? ownMetricObj[selectedMetric] : 0;
 
@@ -939,45 +946,75 @@
       };
       document.getElementById('compChart2Title').textContent = `2. Team Strength: ${metricNames[selectedMetric] || selectedMetric}`;
 
-      // Update subheadings for Charts 1, 2, 3, 4 to read "After Week [x]"
       document.getElementById('compChart1Subtitle').textContent = `After Week ${cutoffWeek}`;
       document.getElementById('compChart2Subtitle').textContent = `After Week ${cutoffWeek}`;
       document.getElementById('compChart3Subtitle').textContent = `After Week ${cutoffWeek}`;
       document.getElementById('compChart4Subtitle').textContent = `After Week ${cutoffWeek}`;
 
-      // Update badge labels
-      document.getElementById('compChart2AvgBadge').innerHTML = `<span class="w-3 inline-block border-t-2 border-dashed border-slate-300 mr-1"></span> Avg ${fmtMetric(leagueAvgMetric, selectedMetric)}`;
-      document.getElementById('compChart3AvgBadge').innerHTML = `<span class="w-3 inline-block border-t-2 border-dashed border-slate-300 mr-1"></span> Avg ${fmtMetric(leagueAvgMetric, selectedMetric)}`;
-      document.getElementById('compChart4AvgBadge').innerHTML = `<span class="w-3 inline-block border-t-2 border-dashed border-slate-300 mr-1"></span> Avg ${fmtMetric(leagueAvgMetric, selectedMetric)}`;
-      document.getElementById('compChart5AvgBadge').innerHTML = `<span class="w-3 inline-block border-t-2 border-dashed border-slate-300 mr-1"></span> Avg ${fmtMetric(leagueAvgMetric, selectedMetric)}`;
+      // Helper function: tight axis bounds with zero-floor clamping when data has no negatives
+      function calcTightBounds(values, includeZero = true) {
+        let nums = [...values.filter(v => v !== null && !isNaN(v))];
+        if (includeZero) nums.push(0);
 
-      // Render 5 Individual Synchronized Charts
-      renderSingleCompareChart(0, 'compChart1', labels, teamData.map(d => d.winPct), bgColors, borderColors, 0.5, 'WinPct', teamData);
-      renderSingleCompareChart(1, 'compChart2', labels, teamData.map(d => d.ownStrength), bgColors, borderColors, leagueAvgMetric, selectedMetric, teamData);
-      renderSingleCompareChart(2, 'compChart3', labels, teamData.map(d => d.sosPlayed), bgColors, borderColors, leagueAvgMetric, selectedMetric, teamData);
-      renderSingleCompareChart(3, 'compChart4', labels, teamData.map(d => d.sosRemaining), bgColors, borderColors, leagueAvgMetric, selectedMetric, teamData);
-      renderSingleCompareChart(4, 'compChart5', labels, teamData.map(d => d.sosFull), bgColors, borderColors, leagueAvgMetric, selectedMetric, teamData);
+        let minVal = Math.min(...nums);
+        let maxVal = Math.max(...nums);
+        let range = maxVal - minVal || 0.1;
+
+        // Tight 3.5% padding avoids huge empty blocks
+        let pad = range * 0.035;
+        let finalMin = minVal - pad;
+        let finalMax = maxVal + pad;
+
+        // If there are no negative values anywhere in the dataset, pin the minimum strictly to 0
+        if (minVal >= 0) {
+          finalMin = 0;
+        }
+
+        // Bounded constraint for percentage metrics
+        if (selectedMetric === 'WinPct' && minVal >= 0 && maxVal <= 1) {
+          finalMin = 0;
+          finalMax = Math.min(1, finalMax);
+        }
+
+        return { min: finalMin, max: finalMax };
+      }
+
+      // Chart 1: Win % Bounds
+      const boundsChart1 = calcTightBounds(teamData.map(d => d.winPct), true);
+
+      // Collect SoS values for Charts 3, 4, 5
+      const allSosVals = [
+        ...teamData.map(d => d.sosPlayed),
+        ...teamData.map(d => d.sosRemaining),
+        ...teamData.map(d => d.sosFull),
+        leagueAvgMetric
+      ];
+
+      let boundsChart2, boundsSos;
+
+      if (UNIFY_CHART_2_WITH_SOS) {
+        // All four charts (2, 3, 4, 5) share the exact same bounds
+        const unifiedVals = [...allSosVals, ...teamData.map(d => d.ownStrength)];
+        const unifiedBounds = calcTightBounds(unifiedVals, true);
+        boundsChart2 = unifiedBounds;
+        boundsSos = unifiedBounds;
+      } else {
+        // Chart 2 scales independently; Charts 3, 4, 5 share an aligned SoS scale
+        boundsChart2 = calcTightBounds([...teamData.map(d => d.ownStrength), leagueAvgMetric], true);
+        boundsSos = calcTightBounds(allSosVals, true);
+      }
+
+      // Render 5 Charts with zero-floor clamped padding
+      renderSingleCompareChart(0, 'compChart1', labels, teamData.map(d => d.winPct), bgColors, borderColors, 0.5, 'WinPct', teamData, boundsChart1.min, boundsChart1.max);
+      renderSingleCompareChart(1, 'compChart2', labels, teamData.map(d => d.ownStrength), bgColors, borderColors, leagueAvgMetric, selectedMetric, teamData, boundsChart2.min, boundsChart2.max);
+      renderSingleCompareChart(2, 'compChart3', labels, teamData.map(d => d.sosPlayed), bgColors, borderColors, leagueAvgMetric, selectedMetric, teamData, boundsSos.min, boundsSos.max);
+      renderSingleCompareChart(3, 'compChart4', labels, teamData.map(d => d.sosRemaining), bgColors, borderColors, leagueAvgMetric, selectedMetric, teamData, boundsSos.min, boundsSos.max);
+      renderSingleCompareChart(4, 'compChart5', labels, teamData.map(d => d.sosFull), bgColors, borderColors, leagueAvgMetric, selectedMetric, teamData, boundsSos.min, boundsSos.max);
     }
 
-    function renderSingleCompareChart(idx, canvasId, labels, values, bgColors, borderColors, leagueAvg, metric, teamData) {
+    function renderSingleCompareChart(idx, canvasId, labels, values, bgColors, borderColors, leagueAvg, metric, teamData, explicitMin, explicitMax) {
       const ctx = document.getElementById(canvasId).getContext('2d');
       if (compChartInstances[idx]) compChartInstances[idx].destroy();
-
-      const validNumbers = [...values.filter(v => v !== null && !isNaN(v))];
-      if (leagueAvg !== null && !isNaN(leagueAvg)) validNumbers.push(leagueAvg);
-
-      let calcMin = validNumbers.length > 0 ? Math.min(...validNumbers) : 0;
-      let calcMax = validNumbers.length > 0 ? Math.max(...validNumbers) : 100;
-      let range = calcMax - calcMin || 1;
-      let buffer = range * 0.12;
-
-      let suggestedMin = calcMin - buffer;
-      let suggestedMax = calcMax + buffer;
-
-      if (metric === 'WinPct' && calcMin >= 0 && calcMax <= 1) {
-        suggestedMin = Math.max(0, suggestedMin);
-        suggestedMax = Math.min(1, suggestedMax);
-      }
 
       const benchmarkPlugin = {
         id: `compareBenchmark_${idx}`,
@@ -997,10 +1034,11 @@
           ctx.lineTo(avgX, bottom);
           ctx.stroke();
 
+          // Only displays the numeric value directly above the line
           ctx.fillStyle = '#cbd5e1';
           ctx.font = 'bold 10px sans-serif';
           ctx.textAlign = 'center';
-          ctx.fillText(`Avg: ${fmtMetric(leagueAvg, metric)}`, avgX, top - 6);
+          ctx.fillText(fmtMetric(leagueAvg, metric), avgX, top - 6);
           ctx.restore();
         }
       };
@@ -1040,8 +1078,8 @@
           },
           scales: {
             x: {
-              suggestedMin: suggestedMin,
-              suggestedMax: suggestedMax,
+              min: explicitMin,
+              max: explicitMax,
               grid: { color: '#334155' },
               ticks: { color: '#cbd5e1', callback: (val) => fmtMetric(val, metric) }
             },
@@ -1142,7 +1180,6 @@
       teamRankData.sort((a, b) => b.sosVal - a.sosVal);
 
       const periodLabel = selectedPeriod === 'Played' ? 'Played Games' : (selectedPeriod === 'Remaining' ? 'Remaining Games' : 'Full Season');
-      // Updated second half of subtitle to read "After Week [x]"
       document.getElementById('rankingsChartSubtitle').textContent = `${periodLabel} • After Week ${cutoffWeek}`;
 
       const labels = teamRankData.map(d => d.axisLabel);
