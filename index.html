@@ -78,6 +78,7 @@
               <option value="NetWEPA">Weighted Net EPA</option>
               <option value="PointsDif">PPG Differential</option>
               <option value="WinPct">Win %</option>
+              <option value="DVOA">DVOA</option>
             </select>
           </div>
         </div>
@@ -141,7 +142,7 @@
                 <th class="py-2.5 px-3 text-right">Opp. Metric</th>
               </tr>
             </thead>
-            <tbody id="scheduleRows" class="divide-y border-slate-800/60 text-xs sm:text-sm"></tbody>
+            <tbody id="scheduleRows" class="divide-y divide-slate-800/60 text-xs sm:text-sm"></tbody>
           </table>
         </div>
       </section>
@@ -169,6 +170,7 @@
               <option value="NetWEPA">Weighted Net EPA</option>
               <option value="PointsDif">PPG Differential</option>
               <option value="WinPct">Win %</option>
+              <option value="DVOA">DVOA</option>
             </select>
           </div>
           <div>
@@ -306,6 +308,7 @@
               <option value="NetWEPA">Weighted Net EPA</option>
               <option value="PointsDif">PPG Differential</option>
               <option value="WinPct">Win %</option>
+              <option value="DVOA">DVOA</option>
             </select>
           </div>
           <div>
@@ -402,6 +405,11 @@
           return num.toFixed(3).replace(/^0\./, '.');
         }
         return num.toFixed(1) + '%';
+      }
+      if (metric === 'DVOA') {
+        const pct = num * 100;
+        const formatted = pct.toFixed(1);
+        return (formatted === '-0.0' ? '0.0' : formatted) + '%';
       }
       return num.toFixed(2);
     }
@@ -596,7 +604,7 @@
       }
 
       let leagueAvg = 0;
-      if (selectedMetric === 'PointsDif') {
+      if (selectedMetric === 'PointsDif' || selectedMetric === 'DVOA') {
         leagueAvg = 0;
       } else if (selectedMetric === 'WinPct') {
         leagueAvg = 0.5;
@@ -854,7 +862,7 @@
 
       // Calculate Theoretical / Empirical League Average for Selected Metric at cutoff week
       let leagueAvgMetric = 0;
-      if (selectedMetric === 'PointsDif') {
+      if (selectedMetric === 'PointsDif' || selectedMetric === 'DVOA') {
         leagueAvgMetric = 0;
       } else if (selectedMetric === 'WinPct') {
         leagueAvgMetric = 0.5;
@@ -942,7 +950,8 @@
         NetEPA: 'Raw Net EPA',
         NetWEPA: 'Weighted Net EPA',
         PointsDif: 'PPG Differential',
-        WinPct: 'Win %'
+        WinPct: 'Win %',
+        DVOA: 'DVOA'
       };
       document.getElementById('compChart2Title').textContent = `2. Team Strength: ${metricNames[selectedMetric] || selectedMetric}`;
 
@@ -993,13 +1002,11 @@
       let boundsChart2, boundsSos;
 
       if (UNIFY_CHART_2_WITH_SOS) {
-        // All four charts (2, 3, 4, 5) share the exact same bounds
         const unifiedVals = [...allSosVals, ...teamData.map(d => d.ownStrength)];
         const unifiedBounds = calcTightBounds(unifiedVals, true);
         boundsChart2 = unifiedBounds;
         boundsSos = unifiedBounds;
       } else {
-        // Chart 2 scales independently; Charts 3, 4, 5 share an aligned SoS scale
         boundsChart2 = calcTightBounds([...teamData.map(d => d.ownStrength), leagueAvgMetric], true);
         boundsSos = calcTightBounds(allSosVals, true);
       }
@@ -1034,7 +1041,6 @@
           ctx.lineTo(avgX, bottom);
           ctx.stroke();
 
-          // Only displays the numeric value directly above the line
           ctx.fillStyle = '#cbd5e1';
           ctx.font = 'bold 10px sans-serif';
           ctx.textAlign = 'center';
@@ -1112,7 +1118,7 @@
       });
 
       let leagueAvg = 0;
-      if (selectedMetric === 'PointsDif') {
+      if (selectedMetric === 'PointsDif' || selectedMetric === 'DVOA') {
         leagueAvg = 0;
       } else if (selectedMetric === 'WinPct') {
         leagueAvg = 0.5;
