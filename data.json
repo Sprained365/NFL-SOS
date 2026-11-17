@@ -346,7 +346,7 @@
       "GameType": "Regular",
       "H/A": "H",
       "Divisional": "D",
-      "Result": null
+      "Result": "L"
     },
     {
       "Team": "ARI",
@@ -508,7 +508,7 @@
       "GameType": "Regular",
       "H/A": "H",
       "Divisional": null,
-      "Result": null
+      "Result": "L"
     },
     {
       "Team": "ATL",
@@ -670,7 +670,7 @@
       "GameType": "Regular",
       "H/A": "H",
       "Divisional": null,
-      "Result": null
+      "Result": "L"
     },
     {
       "Team": "BAL",
@@ -832,7 +832,7 @@
       "GameType": "Regular",
       "H/A": "A",
       "Divisional": "D",
-      "Result": null
+      "Result": "W"
     },
     {
       "Team": "BUF",
@@ -994,7 +994,7 @@
       "GameType": "Regular",
       "H/A": "A",
       "Divisional": "D",
-      "Result": null
+      "Result": "W"
     },
     {
       "Team": "CAR",
@@ -1318,7 +1318,7 @@
       "GameType": "Regular",
       "H/A": "H",
       "Divisional": "D",
-      "Result": null
+      "Result": "W"
     },
     {
       "Team": "CIN",
@@ -1480,7 +1480,7 @@
       "GameType": "Regular",
       "H/A": "H",
       "Divisional": null,
-      "Result": null
+      "Result": "W"
     },
     {
       "Team": "CLE",
@@ -1642,7 +1642,7 @@
       "GameType": "Regular",
       "H/A": "H",
       "Divisional": null,
-      "Result": null
+      "Result": "L"
     },
     {
       "Team": "DAL",
@@ -1966,7 +1966,7 @@
       "GameType": "Regular",
       "H/A": "H",
       "Divisional": null,
-      "Result": null
+      "Result": "W"
     },
     {
       "Team": "DET",
@@ -2128,7 +2128,7 @@
       "GameType": "Regular",
       "H/A": "H",
       "Divisional": "D",
-      "Result": null
+      "Result": "L"
     },
     {
       "Team": "GB",
@@ -2290,7 +2290,7 @@
       "GameType": "Regular",
       "H/A": "A",
       "Divisional": null,
-      "Result": null
+      "Result": "L"
     },
     {
       "Team": "HOU",
@@ -2452,7 +2452,7 @@
       "GameType": "Regular",
       "H/A": "H",
       "Divisional": null,
-      "Result": null
+      "Result": "W"
     },
     {
       "Team": "IND",
@@ -2614,7 +2614,7 @@
       "GameType": "Regular",
       "H/A": "A",
       "Divisional": "D",
-      "Result": null
+      "Result": "W"
     },
     {
       "Team": "JAX",
@@ -2776,7 +2776,7 @@
       "GameType": "Regular",
       "H/A": "A",
       "Divisional": null,
-      "Result": null
+      "Result": "W"
     },
     {
       "Team": "KC",
@@ -2938,7 +2938,7 @@
       "GameType": "Regular",
       "H/A": "H",
       "Divisional": null,
-      "Result": null
+      "Result": "L"
     },
     {
       "Team": "LV",
@@ -3100,7 +3100,7 @@
       "GameType": "Regular",
       "H/A": "A",
       "Divisional": null,
-      "Result": null
+      "Result": "W"
     },
     {
       "Team": "LAC",
@@ -3262,7 +3262,7 @@
       "GameType": "Regular",
       "H/A": "A",
       "Divisional": "D",
-      "Result": null
+      "Result": "W"
     },
     {
       "Team": "LA",
@@ -3424,7 +3424,7 @@
       "GameType": "Regular",
       "H/A": "A",
       "Divisional": null,
-      "Result": null
+      "Result": "L"
     },
     {
       "Team": "MIA",
@@ -3586,7 +3586,7 @@
       "GameType": "Regular",
       "H/A": "A",
       "Divisional": "D",
-      "Result": null
+      "Result": "W"
     },
     {
       "Team": "MIN",
@@ -3748,7 +3748,7 @@
       "GameType": "Regular",
       "H/A": "A",
       "Divisional": null,
-      "Result": null
+      "Result": "L"
     },
     {
       "Team": "NE",
@@ -3910,7 +3910,7 @@
       "GameType": "Regular",
       "H/A": "H",
       "Divisional": "D",
-      "Result": null
+      "Result": "L"
     },
     {
       "Team": "NO",
@@ -4072,7 +4072,7 @@
       "GameType": "Regular",
       "H/A": "H",
       "Divisional": "D",
-      "Result": null
+      "Result": "L"
     },
     {
       "Team": "NYG",
@@ -4234,7 +4234,7 @@
       "GameType": "Regular",
       "H/A": "H",
       "Divisional": "D",
-      "Result": null
+      "Result": "L"
     },
     {
       "Team": "NYJ",
@@ -4558,7 +4558,7 @@
       "GameType": "Regular",
       "H/A": "A",
       "Divisional": "D",
-      "Result": null
+      "Result": "L"
     },
     {
       "Team": "PIT",
@@ -4720,7 +4720,7 @@
       "GameType": "Regular",
       "H/A": "A",
       "Divisional": null,
-      "Result": null
+      "Result": "W"
     },
     {
       "Team": "SF",
@@ -4882,7 +4882,7 @@
       "GameType": "Regular",
       "H/A": "A",
       "Divisional": null,
-      "Result": null
+      "Result": "W"
     },
     {
       "Team": "SEA",
@@ -5206,7 +5206,7 @@
       "GameType": "Regular",
       "H/A": "H",
       "Divisional": "D",
-      "Result": null
+      "Result": "L"
     },
     {
       "Team": "TEN",
@@ -5368,7 +5368,7 @@
       "GameType": "Regular",
       "H/A": "A",
       "Divisional": "D",
-      "Result": null
+      "Result": "W"
     },
     {
       "Team": "WAS",
@@ -7753,7 +7753,7 @@
       "Week": 9,
       "NetEPA": -0.1053786816081578,
       "NetWEPA": -0.01016525878424504,
-      "PointsDif": -7,
+      "PointsDif": -8.555555555555555,
       "Rating": 25.9888740915345,
       "WinPct": 0.3333333333333333
     },
@@ -7762,7 +7762,7 @@
       "Week": 9,
       "NetEPA": -0.06718393564868891,
       "NetWEPA": -0.02250531450484945,
-      "PointsDif": -2,
+      "PointsDif": -3.888888888888889,
       "Rating": 43.7597673203587,
       "WinPct": 0.3333333333333333
     },
@@ -7771,7 +7771,7 @@
       "Week": 9,
       "NetEPA": -0.038034732530894,
       "NetWEPA": 0.0966755481525826,
-      "PointsDif": -2.6666666666666665,
+      "PointsDif": -5.222222222222222,
       "Rating": 43.9416945193553,
       "WinPct": 0.4444444444444444
     },
@@ -7780,7 +7780,7 @@
       "Week": 9,
       "NetEPA": 0.125716893075548,
       "NetWEPA": 0.23758821156919208,
-      "PointsDif": 6.5,
+      "PointsDif": 8.625,
       "Rating": 69.3429662210695,
       "WinPct": 0.875
     },
@@ -7789,7 +7789,7 @@
       "Week": 9,
       "NetEPA": -0.018490278700980897,
       "NetWEPA": 0.09378109460241987,
-      "PointsDif": -1.875,
+      "PointsDif": -2.5,
       "Rating": 44.8491996206989,
       "WinPct": 0.375
     },
@@ -7798,7 +7798,7 @@
       "Week": 9,
       "NetEPA": 0.09226061564268101,
       "NetWEPA": 0.1507488920611901,
-      "PointsDif": 6,
+      "PointsDif": 6.333333333333333,
       "Rating": 69.9050282125026,
       "WinPct": 0.7777777777777778
     },
@@ -7807,7 +7807,7 @@
       "Week": 9,
       "NetEPA": 0.14057083195070333,
       "NetWEPA": 0.257263538493377,
-      "PointsDif": 6,
+      "PointsDif": 8.125,
       "Rating": 64.8395248266585,
       "WinPct": 0.75
     },
@@ -7816,7 +7816,7 @@
       "Week": 9,
       "NetEPA": -0.049153314583162404,
       "NetWEPA": 0.01080891709802704,
-      "PointsDif": -3.7777777777777777,
+      "PointsDif": -3.888888888888889,
       "Rating": 35.0788757337956,
       "WinPct": 0.5555555555555556
     },
@@ -7825,7 +7825,7 @@
       "Week": 9,
       "NetEPA": 0.011841230370352993,
       "NetWEPA": 0.12497463085889539,
-      "PointsDif": 0.6666666666666666,
+      "PointsDif": 1.1111111111111112,
       "Rating": 53.4248782394325,
       "WinPct": 0.4444444444444444
     },
@@ -7834,7 +7834,7 @@
       "Week": 9,
       "NetEPA": 0.01782260509371749,
       "NetWEPA": 0.060966549953811844,
-      "PointsDif": 0.7777777777777778,
+      "PointsDif": 1.3333333333333333,
       "Rating": 60.8715367890035,
       "WinPct": 0.7777777777777778
     },
@@ -7843,7 +7843,7 @@
       "Week": 9,
       "NetEPA": 0.019903313930020705,
       "NetWEPA": 0.1768129321008197,
-      "PointsDif": 2.875,
+      "PointsDif": 4.125,
       "Rating": 62.5613014297985,
       "WinPct": 0.75
     },
@@ -7852,7 +7852,7 @@
       "Week": 9,
       "NetEPA": 0.0911126561125893,
       "NetWEPA": 0.1898339609972748,
-      "PointsDif": 0.7777777777777778,
+      "PointsDif": 2.7777777777777777,
       "Rating": 64.0355792348476,
       "WinPct": 0.6666666666666666
     },
@@ -7861,7 +7861,7 @@
       "Week": 9,
       "NetEPA": 0.0404502895949882,
       "NetWEPA": 0.1311873387397437,
-      "PointsDif": -0.625,
+      "PointsDif": 2.125,
       "Rating": 62.0837164688256,
       "WinPct": 0.375
     },
@@ -7870,7 +7870,7 @@
       "Week": 9,
       "NetEPA": -0.1681024087641109,
       "NetWEPA": -0.08280507583968891,
-      "PointsDif": -6.777777777777778,
+      "PointsDif": -7.222222222222222,
       "Rating": 28.3862378867527,
       "WinPct": 0.2222222222222222
     },
@@ -7879,7 +7879,7 @@
       "Week": 9,
       "NetEPA": 0.224646921760858,
       "NetWEPA": 0.24695685506933532,
-      "PointsDif": 10.625,
+      "PointsDif": 13.5,
       "Rating": 72.2307050235289,
       "WinPct": 0.75
     },
@@ -7888,7 +7888,7 @@
       "Week": 9,
       "NetEPA": 0.1781313722190015,
       "NetWEPA": 0.197376647020323,
-      "PointsDif": 4.5,
+      "PointsDif": 7.375,
       "Rating": 65.3879037386284,
       "WinPct": 0.75
     },
@@ -7897,7 +7897,7 @@
       "Week": 9,
       "NetEPA": -0.0649616974348905,
       "NetWEPA": 0.0548655303241064,
-      "PointsDif": -1,
+      "PointsDif": -3.3333333333333335,
       "Rating": 39.7256184780843,
       "WinPct": 0.4444444444444444
     },
@@ -7906,7 +7906,7 @@
       "Week": 9,
       "NetEPA": -0.2244607874619545,
       "NetWEPA": -0.1303050807908548,
-      "PointsDif": -9.5,
+      "PointsDif": -12.25,
       "Rating": 33.7467864930376,
       "WinPct": 0
     },
@@ -7915,7 +7915,7 @@
       "Week": 9,
       "NetEPA": 0.129795655392657,
       "NetWEPA": 0.1809063224169289,
-      "PointsDif": 2.888888888888889,
+      "PointsDif": 3.6666666666666665,
       "Rating": 69.3760262715771,
       "WinPct": 0.5555555555555556
     },
@@ -7924,7 +7924,7 @@
       "Week": 9,
       "NetEPA": -0.1763352770496739,
       "NetWEPA": -0.06095364998730961,
-      "PointsDif": -8,
+      "PointsDif": -9.25,
       "Rating": 22.1788019064609,
       "WinPct": 0.125
     },
@@ -7933,7 +7933,7 @@
       "Week": 9,
       "NetEPA": 0.010636315544790997,
       "NetWEPA": 0.014624424443828304,
-      "PointsDif": 5.875,
+      "PointsDif": 3.75,
       "Rating": 51.151672311721,
       "WinPct": 0.75
     },
@@ -7942,7 +7942,7 @@
       "Week": 9,
       "NetEPA": -0.0038437716391563972,
       "NetWEPA": 0.1842849715035328,
-      "PointsDif": 2.4444444444444446,
+      "PointsDif": 0.4444444444444444,
       "Rating": 56.3338406453573,
       "WinPct": 0.5555555555555556
     },
@@ -7951,7 +7951,7 @@
       "Week": 9,
       "NetEPA": -0.0898914376418553,
       "NetWEPA": 0.037690964015481804,
-      "PointsDif": -4,
+      "PointsDif": -3.875,
       "Rating": 41.0681664810393,
       "WinPct": 0.375
     },
@@ -7960,7 +7960,7 @@
       "Week": 9,
       "NetEPA": 0.0401739663691017,
       "NetWEPA": 0.1060152657610049,
-      "PointsDif": 0.25,
+      "PointsDif": 1.25,
       "Rating": 45.0625057879492,
       "WinPct": 0.6875
     },
@@ -7969,7 +7969,7 @@
       "Week": 9,
       "NetEPA": -0.057515423250362144,
       "NetWEPA": 0.052843288246690795,
-      "PointsDif": -2,
+      "PointsDif": -4.555555555555555,
       "Rating": 29.645199061709,
       "WinPct": 0.2222222222222222
     },
@@ -7978,7 +7978,7 @@
       "Week": 9,
       "NetEPA": -0.19254860731194762,
       "NetWEPA": -0.0880810897615759,
-      "PointsDif": -7.222222222222222,
+      "PointsDif": -8.11111111111111,
       "Rating": 30.3320805507773,
       "WinPct": 0.2222222222222222
     },
@@ -7996,7 +7996,7 @@
       "Week": 9,
       "NetEPA": 0.2277455462928218,
       "NetWEPA": 0.33248298084405603,
-      "PointsDif": 7.25,
+      "PointsDif": 9.875,
       "Rating": 71.8332068085958,
       "WinPct": 0.875
     },
@@ -8005,7 +8005,7 @@
       "Week": 9,
       "NetEPA": 0.0479109660420121,
       "NetWEPA": 0.0935355016248748,
-      "PointsDif": 2.888888888888889,
+      "PointsDif": 4.444444444444445,
       "Rating": 67.8752699475283,
       "WinPct": 0.5555555555555556
     },
@@ -8014,7 +8014,7 @@
       "Week": 9,
       "NetEPA": 0.055414034141832005,
       "NetWEPA": 0.0369038163040972,
-      "PointsDif": 3,
+      "PointsDif": 2.6666666666666665,
       "Rating": 53.0053219026306,
       "WinPct": 0.3333333333333333
     },
@@ -8032,9 +8032,297 @@
       "Week": 9,
       "NetEPA": -0.0508267157367868,
       "NetWEPA": 0.023407495450995103,
-      "PointsDif": -2.875,
+      "PointsDif": -3.75,
       "Rating": 44.4278609960811,
       "WinPct": 0.3125
+    },
+    {
+      "Team": "ARI",
+      "Week": 10,
+      "NetEPA": -0.1364714231722271,
+      "NetWEPA": -0.0412663674574424,
+      "PointsDif": -10.5,
+      "Rating": 22.1546898711434,
+      "WinPct": 0.3
+    },
+    {
+      "Team": "ATL",
+      "Week": 10,
+      "NetEPA": -0.0999333936069869,
+      "NetWEPA": -0.0590902052378489,
+      "PointsDif": -5.7,
+      "Rating": 44.0771216766783,
+      "WinPct": 0.3
+    },
+    {
+      "Team": "BAL",
+      "Week": 10,
+      "NetEPA": -0.0303171369404948,
+      "NetWEPA": 0.0746464196090067,
+      "PointsDif": -5,
+      "Rating": 42.9356106938053,
+      "WinPct": 0.4
+    },
+    {
+      "Team": "BUF",
+      "Week": 10,
+      "NetEPA": 0.1310669555993864,
+      "NetWEPA": 0.21005738818131514,
+      "PointsDif": 9.777777777777779,
+      "Rating": 70.6532820951981,
+      "WinPct": 0.8888888888888888
+    },
+    {
+      "Team": "CAR",
+      "Week": 10,
+      "NetEPA": -0.001488907987219297,
+      "NetWEPA": 0.08052400322336059,
+      "PointsDif": -1.8888888888888888,
+      "Rating": 46.7375727273177,
+      "WinPct": 0.4444444444444444
+    },
+    {
+      "Team": "CHI",
+      "Week": 10,
+      "NetEPA": 0.0711970367760974,
+      "NetWEPA": 0.1243629270010263,
+      "PointsDif": 6.333333333333333,
+      "Rating": 72.3026364708957,
+      "WinPct": 0.7777777777777778
+    },
+    {
+      "Team": "CIN",
+      "Week": 10,
+      "NetEPA": 0.16212178872400737,
+      "NetWEPA": 0.26593797019289755,
+      "PointsDif": 9.444444444444445,
+      "Rating": 68.0991103809119,
+      "WinPct": 0.7777777777777778
+    },
+    {
+      "Team": "CLE",
+      "Week": 10,
+      "NetEPA": -0.028970399214525194,
+      "NetWEPA": 0.02183114772506705,
+      "PointsDif": -3.2,
+      "Rating": 40.9320678337008,
+      "WinPct": 0.6
+    },
+    {
+      "Team": "DAL",
+      "Week": 10,
+      "NetEPA": -0.007360009385414007,
+      "NetWEPA": 0.09950010879288419,
+      "PointsDif": 0.4,
+      "Rating": 55.3799462245157,
+      "WinPct": 0.4
+    },
+    {
+      "Team": "DEN",
+      "Week": 10,
+      "NetEPA": 0.012774308501823674,
+      "NetWEPA": 0.05160705683858878,
+      "PointsDif": 1.3333333333333333,
+      "Rating": 59.7893426778871,
+      "WinPct": 0.7777777777777778
+    },
+    {
+      "Team": "DET",
+      "Week": 10,
+      "NetEPA": 0.0511268558808683,
+      "NetWEPA": 0.16074371270240298,
+      "PointsDif": 6.444444444444445,
+      "Rating": 62.9904697882565,
+      "WinPct": 0.7777777777777778
+    },
+    {
+      "Team": "GB",
+      "Week": 10,
+      "NetEPA": 0.0390576785204608,
+      "NetWEPA": 0.1358794892830691,
+      "PointsDif": 0.5,
+      "Rating": 64.1582824271952,
+      "WinPct": 0.6
+    },
+    {
+      "Team": "HOU",
+      "Week": 10,
+      "NetEPA": 0.0312066372243393,
+      "NetWEPA": 0.1105634525476604,
+      "PointsDif": 1.5555555555555556,
+      "Rating": 62.6928976960966,
+      "WinPct": 0.3333333333333333
+    },
+    {
+      "Team": "IND",
+      "Week": 10,
+      "NetEPA": -0.1345392142303533,
+      "NetWEPA": -0.0704358543629406,
+      "PointsDif": -6.3,
+      "Rating": 29.4622822885785,
+      "WinPct": 0.3
+    },
+    {
+      "Team": "JAX",
+      "Week": 10,
+      "NetEPA": 0.1946778681112663,
+      "NetWEPA": 0.23023723362371923,
+      "PointsDif": 13.88888888888889,
+      "Rating": 72.1413513081111,
+      "WinPct": 0.7777777777777778
+    },
+    {
+      "Team": "KC",
+      "Week": 10,
+      "NetEPA": 0.1879171569721759,
+      "NetWEPA": 0.19244717994238908,
+      "PointsDif": 9,
+      "Rating": 67.8631878258067,
+      "WinPct": 0.7777777777777778
+    },
+    {
+      "Team": "LV",
+      "Week": 10,
+      "NetEPA": -0.07163686945326019,
+      "NetWEPA": 0.0260859871398346,
+      "PointsDif": -3.8,
+      "Rating": 33.2308272781743,
+      "WinPct": 0.4
+    },
+    {
+      "Team": "LAC",
+      "Week": 10,
+      "NetEPA": -0.168958837774117,
+      "NetWEPA": -0.10032746185236183,
+      "PointsDif": -10.555555555555555,
+      "Rating": 35.8658118362873,
+      "WinPct": 0.1111111111111111
+    },
+    {
+      "Team": "LA",
+      "Week": 10,
+      "NetEPA": 0.1618562944528644,
+      "NetWEPA": 0.1914638992258789,
+      "PointsDif": 6.1,
+      "Rating": 72.2517065236475,
+      "WinPct": 0.6
+    },
+    {
+      "Team": "MIA",
+      "Week": 10,
+      "NetEPA": -0.1105296684056736,
+      "NetWEPA": -0.03145723322003262,
+      "PointsDif": -8.444444444444445,
+      "Rating": 19.1755891864863,
+      "WinPct": 0.1111111111111111
+    },
+    {
+      "Team": "MIN",
+      "Week": 10,
+      "NetEPA": 0.038357696670427,
+      "NetWEPA": 0.025208503100330105,
+      "PointsDif": 5.555555555555555,
+      "Rating": 65.6305476455021,
+      "WinPct": 0.7777777777777778
+    },
+    {
+      "Team": "NE",
+      "Week": 10,
+      "NetEPA": -0.032846155208239095,
+      "NetWEPA": 0.11513626386590889,
+      "PointsDif": -2.1,
+      "Rating": 30.9385356052719,
+      "WinPct": 0.5
+    },
+    {
+      "Team": "NO",
+      "Week": 10,
+      "NetEPA": -0.0778926797420202,
+      "NetWEPA": 0.0272143539368536,
+      "PointsDif": -3.7777777777777777,
+      "Rating": 41.0160335557167,
+      "WinPct": 0.3333333333333333
+    },
+    {
+      "Team": "NYG",
+      "Week": 10,
+      "NetEPA": 0.022986464258795733,
+      "NetWEPA": 0.0947511326991306,
+      "PointsDif": 0.7777777777777778,
+      "Rating": 44.3932606069109,
+      "WinPct": 0.6111111111111112
+    },
+    {
+      "Team": "NYJ",
+      "Week": 10,
+      "NetEPA": -0.09411586845372469,
+      "NetWEPA": -0.0075930898029569,
+      "PointsDif": -6,
+      "Rating": 29.5537434765251,
+      "WinPct": 0.2
+    },
+    {
+      "Team": "PHI",
+      "Week": 10,
+      "NetEPA": -0.1524221365450919,
+      "NetWEPA": -0.0558739431418497,
+      "PointsDif": -8.11111111111111,
+      "Rating": 27.8942991957005,
+      "WinPct": 0.2222222222222222
+    },
+    {
+      "Team": "PIT",
+      "Week": 10,
+      "NetEPA": 0.005247623836381247,
+      "NetWEPA": 0.02005406420844682,
+      "PointsDif": 1.7777777777777777,
+      "Rating": 50.9647004537629,
+      "WinPct": 0.6666666666666666
+    },
+    {
+      "Team": "SF",
+      "Week": 10,
+      "NetEPA": 0.18795789176078928,
+      "NetWEPA": 0.2880955230969477,
+      "PointsDif": 9.444444444444445,
+      "Rating": 74.4182660762676,
+      "WinPct": 0.8888888888888888
+    },
+    {
+      "Team": "SEA",
+      "Week": 10,
+      "NetEPA": 0.057648748258836105,
+      "NetWEPA": 0.10626819967000829,
+      "PointsDif": 4.8,
+      "Rating": 70.5823220885345,
+      "WinPct": 0.6
+    },
+    {
+      "Team": "TB",
+      "Week": 10,
+      "NetEPA": 0.0386996795552665,
+      "NetWEPA": 0.030437555518653403,
+      "PointsDif": 2.6666666666666665,
+      "Rating": 52.4579632650083,
+      "WinPct": 0.3333333333333333
+    },
+    {
+      "Team": "TEN",
+      "Week": 10,
+      "NetEPA": -0.1423641915867473,
+      "NetWEPA": -0.05489114368043,
+      "PointsDif": -8,
+      "Rating": 27.6039967125156,
+      "WinPct": 0.1111111111111111
+    },
+    {
+      "Team": "WAS",
+      "Week": 10,
+      "NetEPA": -0.043066270003409166,
+      "NetWEPA": 0.0240220190246277,
+      "PointsDif": -3,
+      "Rating": 45.4179949104032,
+      "WinPct": 0.3888888888888889
     }
   ]
 }
